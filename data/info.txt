@@ -1,0 +1,1284 @@
+10th class Marks
+
+**Board of Secondary Education
+Telangana State, India**
+
+**SECONDARY SCHOOL CERTIFICATE**
+**REGULAR** PC/29/4222/04/256517/3
+**TS-EE 524495**
+
+---
+
+**CERTIFIED THAT**
+**KATTA SAI PRANAV REDDY**
+**Father's Name:** KATTA SRINIVAS REDDY
+**Mother's Name:** KATTA UMARANI
+**Roll No.:** 1929100642
+**Date of Birth:** 03/06/2003 (Zero Three June Two Zero Zero Three)
+**School:** EKALAVYA FOUNDATION SCL NALGONDA, NALGONDA DISTRICT
+**Medium:** ENGLISH
+
+Has appeared and **PASSED SSC EXAMINATION** held in **MARCH–2019**
+
+
+### **The Candidate Secured the Following Grade and Grade Points in Curricular Areas:**
+
+| Subject                  | Grade FA | Grade SA | Overall Grade | Grade Point |
+| ------------------------ | -------- | -------- | ------------- | ----------- |
+| First Language (TELUGU)  | A1       | A1       | A1            | 10          |
+| Third Language (ENGLISH) | A1       | A2       | A1            | 10          |
+| Mathematics              | A1       | A1       | A1            | 10          |
+| Science                  | A1       | A2       | A1            | 09          |
+| Social Studies           | A1       | A1       | A1            | 10          |
+| Second Language (HINDI)  | A1       | B1       | B1            | 08          |
+
+
+### **Cumulative Grade Point Average (CGPA): 9.5**
+
+
+### **CO-CURRICULAR AREAS:**
+
+| Subject                       | Grade |
+| ----------------------------- | ----- |
+| Value Education & Life Skills | A+    |
+| Art & Cultural Education      | A+    |
+| Work & Computer Education     | A+    |
+| Physical & Health Education   | A+    |
+
+
+**Head Master**
+**EKALAVYA FOUNDATION SCHOOL**
+**Nalgonda, Nalgonda**
+**Date of Issue: 13th May, 2019**
+
+**SECRETARY**
+**Board of Secondary Education**
+**Telangana State, Hyderabad**
+
+---
+
+12th class marks(Intermediate)
+---
+
+**Telangana State Board of Intermediate Education**
+Vidya Bhavan, Nampally, Hyderabad - 500 001
+
+**PASS CERTIFICATE-CUM-MEMORANDUM OF MARKS**
+**This is to certify that**
+**KATTA SAI PRANAV REDDY**
+**Father’s Name:** KATTA SRINIVAS REDDY
+**Mother’s Name:** KATTA UMARANI
+**Registered Number:** 2158208799
+**Month & Year of Exam:** MARCH 2021
+**Medium:** ENGLISH
+**Result:** A GRADE
+has appeared for the Intermediate Public Examination held in March 2021 and passed in the following subjects:
+
+
+### **Part - I**
+
+**ENGLISH** – 98 / 100
+**SANSKRIT** – 100 / 100
+
+
+### **Part - II**
+
+**HE** – 98 / 100
+
+---
+
+### **Part - III: Optional Subjects**
+
+| Subject              | Max Marks | Marks Obtained |
+| -------------------- | --------- | -------------- |
+| MATHEMATICS A        | 75        | 75             |
+| MATHEMATICS B        | 75        | 75             |
+| PHYSICS              | 60        | 58             |
+| PHYSICS PRACTICALS   | 30        | 30             |
+| CHEMISTRY            | 60        | 60             |
+| CHEMISTRY PRACTICALS | 30        | 30             |
+
+---
+
+### **Environmental Education:** QUALIFIED
+
+### **Ethics and Human Values:** QUALIFIED
+
+---
+
+**Total Marks:**
+In Figures: **982**
+In Words: **NINE EIGHT TWO**
+
+---
+
+**Date:** 28-06-2021
+**Signature of the Principal and College Seal:** Sri Chaitanya Jr. Kalasala
+**Signature:** (Controller of Examinations)
+
+---
+
+Resume 
+---
+**Katta Sai Pranav Reddy**
+Email: [kattapranavreddy@gmail.com](mailto:kattapranavreddy@gmail.com)
+GitHub: ka1817
+LinkedIn: pranav-reddy-katta
+
+---
+
+### **Professional Summary**
+
+AI and ML Engineer skilled in developing end-to-end machine learning and Generative AI solutions for real-world business challenges. Proficient in data preprocessing, exploratory data analysis, and building predictive models to deliver actionable insights. Experienced in leveraging advanced AI techniques and data-driven strategies to create scalable, impactful solutions.
+
+---
+
+### **Education**
+
+* **Anurag University**, Hyderabad, India
+  B.Tech in Artificial Intelligence and Machine Learning; CGPA: 8.29
+  *09/2021 – 04/2025*
+
+* **Sri Chaitanya Junior College**, Hyderabad, India
+  MPC (Maths, Physics, Chemistry); Percentage: 98%
+  *06/2019 – 05/2021*
+
+---
+
+### Experience
+
+**iNeuron Intelligence Pvt. Ltd.** *(Remote)*
+*Machine Learning Intern — 10/2024 – 11/2024*
+
+* Conducted extensive data preprocessing and exploratory data analysis (EDA) on large customer datasets to identify key behavioral patterns and high-value customer segments.
+* Developed and trained machine learning models for customer segmentation using clustering techniques such as K-Means and Hierarchical Clustering, enhancing marketing strategy alignment.
+* Collaborated with cross-functional teams to interpret analytical insights and monitored model performance across different stages of the pipeline, ensuring accuracy and consistency.
+* Delivered actionable recommendations based on statistical analysis and predictive modeling, supporting data-driven decision-making for targeted marketing campaigns.
+
+**Unified Mentor Pvt. Ltd.** *(Remote)*
+*Data Science Intern — 09/2024 – 10/2024*
+
+* Developed and optimized machine learning models to predict employee attrition, enabling proactive retention strategies and improving workforce stability.
+* Conducted comprehensive data preprocessing, feature engineering, and exploratory data analysis (EDA) to identify key factors influencing employee turnover.
+* Delivered actionable insights and visualized patterns through dashboards and reports, supporting HR teams in making data-driven decisions.
+* Presented findings to stakeholders, translating complex analytics into clear, strategic recommendations for reducing attrition risk.
+
+---
+
+### **Projects**
+
+**BigBasket SmartCart – AI-Driven Shopping Assistant** *(06/2025 – 07/2025)* \[GitHub]
+
+* Led development of an AI-driven shopping assistant using RAG, enabling natural language queries and semantic product search with 95% retrieval accuracy for real-time product recommendations.
+* Developed a retrieval pipeline using the gte-small model, FAISS indexing, and Cross-Encoder reranking, which improved relevance score to 0.89 for intent-driven search results.
+* Designed a modular architecture with FastAPI, HTML/CSS, and Docker, ensuring scalability and reduced response latency to \~2 seconds for seamless interactions.
+* Implemented GitHub Actions for automated testing, Docker builds, and AWS EC2 deployment, which reduced deployment time by 40% and improved system reliability.
+🛒 BigBasket SmartCart – AI Assistant for BigBasket Shopping
+🧾 Introduction
+The rapid evolution of AI technologies has created new opportunities for enhancing user experience in digital commerce. Leveraging state-of-the-art language models and retrieval systems, intelligent assistants can now understand complex queries, process vast amounts of product data, and deliver precise, context-aware responses. This project presents a scalable and robust AI-powered shopping assistant tailored for BigBasket's product ecosystem. Built using Retrieval-Augmented Generation (RAG), vector embeddings, and large language models (LLMs), the system enables efficient and intelligent product discovery through natural language interaction.
+
+❗ Problem Statement
+Online shoppers frequently seek personalized and context-specific product recommendations, such as identifying the best-rated skincare item at the lowest price. However, conventional search systems often fall short in understanding such nuanced queries, lacking the ability to interpret intent, compare attributes across products, and deliver concise, relevant results. This creates friction in the user journey, leading to suboptimal shopping experiences. There is a clear need for an intelligent assistant that can process natural language queries, reason over structured product data, and deliver accurate, insightful responses to aid decision-making.
+
+Business Goal:
+To enhance the shopping experience, boost conversion rates, and optimize search efficiency by enabling natural language-based product search that understands user intent and delivers context-aware, personalized recommendations.
+
+💰 Business Impact (Revenue + Cost)
+💸 1. Increased Conversion Rates (↑ Revenue)
+
+• Users find relevant products faster, leading to more product views, cart adds, and purchases
+
+• Personalized recommendations match buyer intent better than traditional search
+
+• Better UX = lower drop-off rates
+📈 Even a 1–2% uplift in conversions from improved product search can lead to significant revenue gains for a large marketplace like BigBasket.
+
+📉 2. Reduced Customer Support Queries (↓ Cost)
+
+• AI assistant can handle informational and product-related queries
+
+• Reduces manual intervention, live chat support, and email volume
+
+• More self-service = less operational overhead
+⏱️ 3. Reduced Time-to-Purchase (↑ Efficiency)
+
+• Customers make faster decisions because the assistant summarizes comparisons (e.g., price vs. rating trade-offs)
+
+• This shortens the purchase journey and increases user satisfaction
+🧪 4. Rapid Experimentation & Deployment (↓ Dev Costs)
+
+• The project is modular, Dockerized, and CI/CD enabled → easier to iterate and deploy
+
+• Can be extended to other verticals (electronics, fashion) or other marketplaces with minimal changes
+🚀 Features
+🔍 Natural Language Product Search Users can ask queries like "cheapest skin care with highest rating" or "best perfume under ₹500".
+
+🧠 Query Rewriting with LLM Uses Groq LLMs (gemma2-9b-it) to refine user queries for more precise retrieval.
+
+📄 Document Embedding & Vector Search Preprocessed BigBasket product data embedded with thenlper/gte-small and indexed using FAISS.
+
+🤖 RAG Pipeline Uses llama3-70b-8192 model for final answer generation based on retrieved and reranked results.
+
+🔁 Reranking with CrossEncoder Improves accuracy using cross-encoder/ms-marco-MiniLM-L-6-v2.
+
+🌐 FastAPI Backend Easily accessible via localhost:8000 or deployed server.
+
+🐳 Dockerized Build once, run anywhere. Fully containerized using Docker.
+
+🚰 CI/CD with GitHub Actions Automated testing, image build, and push to DockerHub.
+
+📜 Logging Logging implemented for each step in the pipeline for transparency and debugging.
+
+🗂️ Folder Structure
+BIGBASKET/
+├── .github/
+│   └── workflows/
+│       └── ci-cd.yml
+├── data/
+│   └── BigBasket Products.csv
+├── logs/
+│   ├── data_ingestion.log
+│   ├── data_preprocessing.log
+│   ├── query_rewriting.log
+│   └── retrieval_generation.log
+├── src/
+│   ├── utils/
+│   │   └── logger.py
+│   ├── __init__.py
+│   ├── data_ingestion.py
+│   ├── data_preprocessing.py
+│   ├── query_rewritting.py
+│   └── retrival_genaration.py
+├── static/
+│   └── css/
+│       └── style.css
+├── templates/
+│   └── index.html
+├── tests/
+├── ui/
+├── main.py
+├── Dockerfile
+├── requirements.txt
+├── .env
+├── .dockerignore
+├── .gitignore
+└── README.md
+🧪 Local Development Setup
+# Clone the repository
+git clone https://github.com/ka1817/BigBasket-SmartCart-AI-Assistant-for-BigBasket-Shopping
+cd BigBasket
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Before Running the app set .env(environment variable GROQ_API_KEY)
+uvicorn main:app --reload --port 8000
+🐳 Docker Instructions
+🔧 1. Pull Image
+
+docker pull pranavreddy123/bigbasket-assistant:latest
+🚀 2. Run the App (Detached Mode)
+
+docker run -d -p 8000:8000 \
+-e GROQ_API_KEY=create groq api from groq cloud \
+pranavreddy123/bigbasket-assistant:latest
+🌐 3. Access the App
+
+http://localhost:8000
+🤖 Example Usage
+
+Query: "Which is the cheapest hair product with high rating?" Rewritten: "Find the most affordable hair care product with a high customer rating." Response: "Garlic Oil - Vegetarian Capsule 500 mg by Sri Sri Ayurveda is available at ₹220 with a 4.1 rating."
+
+🛠️ GitHub Actions (CI/CD)
+File: .github/workflows/ci-cd.yml
+
+✅ CI-Test: Runs unit tests using pytest.
+
+🐳 CD-Docker: Builds Docker image and pushes to DockerHub.
+
+Triggered on push to main or pull request.
+
+☁️ Deployment on Amazon EC2
+1. Launch EC2 Instance (Ubuntu 20.04)
+2. SSH into your instance
+ssh -i "your-key.pem" ubuntu@your-ec2-ip
+3. Install Docker
+sudo apt update
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+4. Pull and Run Docker Image
+docker pull pranavreddy123/bigbasket-assistant:latest
+# Ensure your .env file is in the same directory, or create an API key using Groq Cloud and add it to the .env file
+docker run -d --env-file .env -p 8000:8000 pranavreddy123/bigbasket-assistant:latest
+Access your app via http://<your-ec2-public-ip>
+🧠 Tech Stack
+✅ LLMs: Groq (gemma2-9b-it, llama3-70b-8192)
+
+✅ LangChain, FAISS, HuggingFace, CrossEncoder
+
+✅ FastAPI
+
+✅ Docker
+
+✅ GitHub Actions
+
+✅ AWS EC2
+
+✅ HTML/CSS
+
+🔗 Links
+🔍 GitHub Repo: BigBasket-SmartCart-AI-Assistant-for-BigBasket-Shopping
+
+🐳 DockerHub: pranavreddy123/bigbasket-assistant
+
+🧑‍💻 Developed By
+Pranav Reddy
+
+**Netflix Customer Churn Prediction – End-to-End ML System** *(Personal Project)* \[GitHub]
+
+* Developed a complete machine learning pipeline to predict customer churn, achieving 99% recall and 0.99 ROC AUC through feature engineering, hyperparameter tuning, and cross-validation.
+* Performed in-depth EDA to identify key churn drivers such as low engagement, infrequent logins, and payment methods, improving model interpretability and business insights.
+* Implemented reproducible MLOps workflows with data versioning using DVC and AWS S3, and tracked experiments, metrics, and model artifacts using MLflow.
+* Designed and deployed a FastAPI-based REST API with HTML/CSS frontend for real-time predictions, containerized the application using Docker, and automated CI/CD using GitHub Actions for deployment on AWS EC2.
+
+📊 Netflix Customer Churn Prediction
+🚀 Project Overview
+Netflix, like many subscription-based platforms, faces the challenge of customer churn. Retaining existing customers is significantly more cost-effective than acquiring new ones. This project delivers a full-scale machine learning solution to predict customer churn using behavioral and subscription data, from ingestion to deployment via a FastAPI interface.
+
+This repository presents a production-grade, explainable, and reproducible ML pipeline with CI/CD, experiment tracking (MLflow), data versioning (DVC), and containerized deployment using Docker.
+
+🎯 Problem Statement
+Netflix seeks to proactively identify users likely to cancel their subscriptions. Predicting churn enables targeted interventions to retain users and minimize revenue loss.
+
+Goal: Build an ML classification model that predicts churn based on customer behavior and plan details.
+
+📌 Key Features Used
+Feature	Type	Description
+watch_hours	Numerical	Total hours watched
+last_login_days	Numerical	Days since last login
+number_of_profiles	Numerical	Total profiles under the account
+avg_watch_time_per_day	Numerical	Daily average watch time
+subscription_type	Categorical	Subscription level: Basic, Standard, Premium
+payment_method	Categorical	Payment method: Credit Card, UPI, PayPal, etc.
+churned	Target	1 = Churned, 0 = Not churned
+📊 Key EDA Insights
+🔬 Feature Significance
+Feature	Test	p-value	Significant?
+subscription_type	Chi-Square	0.0000	✅ Yes
+payment_method	Chi-Square	0.0000	✅ Yes
+number_of_profiles	Chi-Square	0.0000	✅ Yes
+watch_hours	Mann-Whitney U	0.0000	✅ Yes
+last_login_days	Mann-Whitney U	0.0000	✅ Yes
+avg_watch_time_per_day	Mann-Whitney U	0.0000	✅ Yes
+age	Mann-Whitney U	0.7803	❌ No
+gender, region, device	Chi-Square	> 0.3	❌ No
+✅ These statistically significant features were included in the final model pipeline.
+
+🏗️ Project Architecture
+netflix-churn-prediction/
+├── data/                     # Raw and processed data
+├── models/                   # Trained model binaries
+├── reports/                  # Classification reports & plots
+├── static/                   # CSS
+├── templates/                # HTML UI
+├── src/
+│   ├── data_ingestion.py     # Load dataset
+│   ├── data_preprocessing.py # Pipeline for scaling & encoding
+│   └── model_training.py     # ML training & evaluation
+├── main.py                   # FastAPI backend
+├── Dockerfile                # Containerization
+├── .dvc/                     # DVC for data version control
+├── .github/workflows/        # CI/CD GitHub Actions
+└── README.md
+⚙️ End-to-End ML Workflow
+1️⃣ Data Ingestion
+Loads .csv into DataFrame
+Handles errors and logs shape/summary
+2️⃣ Preprocessing
+OneHotEncoding (categorical)
+StandardScaler (numerical)
+Uses ColumnTransformer for pipeline modularity
+3️⃣ Model Training
+Models: RandomForest, GradientBoosting, SVC
+GridSearchCV for hyperparameter tuning
+Model artifacts saved to models/
+ROC curves + classification reports saved to reports/
+4️⃣ MLflow Tracking ✅
+Tracks experiment metadata, metrics, parameters
+Stores models and artifacts
+UI accessible at localhost:5000
+🧪 Model Performance
+Model	Accuracy	F1 Score	ROC AUC (Test)	ROC AUC (CV)	Notes
+Random Forest	0.99	0.99	0.9995	0.9987	✅ Best overall【13†source】
+Gradient Boosting	0.99	0.99	0.9989	0.9991	Robust & efficient【12†source】
+SVC	0.93	0.93	0.9844	0.9822	Lightweight【14†source】
+🌐 FastAPI Deployment
+🔧 API Endpoints:
+/: HTML frontend form for manual input
+/api/predict: JSON-based API for programmatic inference
+🔌 Model Used:
+Random Forest (best AUC + accuracy)
+Accepts form or JSON input
+Returns churn prediction + confidence
+🐳 Docker Setup
+FROM python:3.10-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . .
+EXPOSE 8000
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+Run locally:
+
+docker build -t netflix-churn .
+docker run -p 8000:8000 netflix-churn
+🔁 CI/CD Pipeline (GitHub Actions)
+✅ Stages:
+Test Phase
+
+Install dependencies
+Run pytest on unit tests
+Pull versioned data using dvc pull
+Build Phase
+
+Docker image build with CACHEBUST arg
+Push to DockerHub using GitHub Secrets
+Deploy Phase
+
+SSH into EC2 instance
+Stop, remove old container
+Pull and launch updated Docker image
+🔐 GitHub Repository Secrets
+Name	Purpose
+AWS_ACCESS_KEY_ID	AWS auth for DVC S3
+AWS_SECRET_ACCESS_KEY	AWS auth for DVC S3
+DOCKER_USERNAME	DockerHub username for push
+DOCKER_PASSWORD	DockerHub password/token
+EC2_HOST	Public IP/DNS of EC2 instance
+EC2_USER	SSH user for EC2 login
+EC2_SSH_KEY	Private SSH key for GitHub Actions
+🧬 Data Versioning with DVC
+Tracks raw and preprocessed data versions
+Uses .dvc/config to connect to AWS S3 remote
+Run dvc push and dvc pull to sync across environments
+Ensures reproducibility in CI and local experiments
+📌 Business Value & Insights
+🧠 High-risk churn users are linked to:
+
+Low engagement (low watch hours)
+Infrequent logins
+Basic plans & non-card payments
+📈 Operational Benefits:
+
+Preemptive retention campaigns
+Personalized offers to vulnerable users
+Reduce marketing costs via targeted outreach
+✅ Run Locally (No Docker)
+git clone <repo_url>
+cd netflix-churn-prediction
+python src/model_training.py        # Train all models
+uvicorn main:app --reload           # Launch API server
+Summary
+Component	Implemented	Tool/Service Used
+Data Versioning	✅	DVC with AWS S3 remote
+Data Ingestion	✅	pandas, custom Python class
+Data Preprocessing	✅	scikit-learn Pipelines
+Model Training	✅	scikit-learn, GridSearchCV
+Experiment Tracking	✅	MLflow (local server: 127.0.0.1:5000)
+Model Evaluation	✅	classification_report, ROC AUC
+Model Packaging	✅	joblib for serialization
+API Deployment	✅	FastAPI on AWS EC2
+Web UI	✅	HTML + Bootstrap via Jinja2
+Containerization	✅	Docker (with Dockerfile)
+CI/CD Pipeline	✅	GitHub Actions
+Cloud Hosting	✅	AWS EC2, SSH-based deployment
+Secrets Management	✅	GitHub Secrets
+Testing	✅	pytest, CI-tested
+🙌 Author
+👨‍💻 Katta Sai Pranav Reddy
+📎 Tech Stack
+Python 3.10
+Scikit-learn, MLflow, DVC, FastAPI, Docker
+GitHub Actions, AWS EC2, S3 Remote Storage
+---
+
+### **Skills**
+
+* **Tools:** MLflow, DVC, Docker, Git, GitHub Actions, AWS (EC2, S3, ECR), FAISS, Pinecone, Hugging Face, LangChain, LangSmith, FastAPI
+* **Programming & Technical Skills:** Python, SQL, HTML, CSS, Scikit-learn, TensorFlow, Keras, Statistics
+* **Data Science & Machine Learning:** Data Preprocessing, EDA, Feature Engineering, Model Training & Evaluation, Hyperparameter Tuning, Clustering, MLOps, Semantic Search, Retrieval-Augmented Generation (RAG), CNN, RNN, GPT, Transformers, Fine-Tuning, Prompt Engineering
+* **Data Visualization & Analysis:** Pandas, NumPy, Matplotlib, Seaborn
+
+---
+
+hobbies section 
+
+---
+
+### **Hobbies & Interests**
+Hobbies & Interests
+
+* Playing Cricket
+* Watching Football
+* Reading Books
+* Exploring Latest Advancements in Artificial Intelligence
+* Browsing the Internet for Tech & Knowledge Updates
+
+---
+
+### Contact Information
+
+Contact Information
+
+📞 **Phone:** +91 93475 41040
+📧 **Email:** [kattapranavreddy@gmail.com](mailto:kattapranavreddy@gmail.com)
+💻 **GitHub:** [github.com/ka1817](https://github.com/ka1817)
+🔗 **LinkedIn:** [linkedin.com/in/pranav-reddy-katta](https://www.linkedin.com/in/pranav-reddy-katta/)
+---
+
+10th
+---
+
+**Board of Secondary Education
+Telangana State, India**
+
+**SECONDARY SCHOOL CERTIFICATE**
+**REGULAR** PC/29/4222/04/256517/3
+**TS-EE 524495**
+
+---
+
+**CERTIFIED THAT**
+**KATTA SAI PRANAV REDDY**
+**Father's Name:** KATTA SRINIVAS REDDY
+**Mother's Name:** KATTA UMARANI
+**Roll No.:** 1929100642
+**Date of Birth:** 03/06/2003 (Zero Three June Two Zero Zero Three)
+**School:** EKALAVYA FOUNDATION SCL NALGONDA, NALGONDA DISTRICT
+**Medium:** ENGLISH
+
+Has appeared and **PASSED SSC EXAMINATION** held in **MARCH–2019**
+
+---
+
+### **The Candidate Secured the Following Grade and Grade Points in Curricular Areas:**
+
+| Subject                  | Grade FA | Grade SA | Overall Grade | Grade Point |
+| ------------------------ | -------- | -------- | ------------- | ----------- |
+| First Language (TELUGU)  | A1       | A1       | A1            | 10          |
+| Third Language (ENGLISH) | A1       | A2       | A1            | 10          |
+| Mathematics              | A1       | A1       | A1            | 10          |
+| Science                  | A1       | A2       | A1            | 09          |
+| Social Studies           | A1       | A1       | A1            | 10          |
+| Second Language (HINDI)  | A1       | B1       | B1            | 08          |
+
+---
+
+### **Cumulative Grade Point Average (CGPA): 9.5**
+
+---
+
+### **CO-CURRICULAR AREAS:**
+
+| Subject                       | Grade |
+| ----------------------------- | ----- |
+| Value Education & Life Skills | A+    |
+| Art & Cultural Education      | A+    |
+| Work & Computer Education     | A+    |
+| Physical & Health Education   | A+    |
+
+---
+
+### **Marks of Identification:**
+
+1. A MOLE ON THE LEFT HAND RING FINGER
+2. A MOLE ON THE RIGHT ELBOW
+
+---
+
+**Head Master**
+**EKALAVYA FOUNDATION SCHOOL**
+**Nalgonda, Nalgonda**
+**Date of Issue: 13th May, 2019**
+
+---
+
+**SECRETARY**
+**Board of Secondary Education**
+**Telangana State, Hyderabad**
+
+**Aadhaar No.:** 774291627518
+
+---
+
+12th(Intermediate)
+---
+
+**Telangana State Board of Intermediate Education**
+Vidya Bhavan, Nampally, Hyderabad - 500 001
+
+**PASS CERTIFICATE-CUM-MEMORANDUM OF MARKS**
+**This is to certify that**
+**KATTA SAI PRANAV REDDY**
+**Father’s Name:** KATTA SRINIVAS REDDY
+**Mother’s Name:** KATTA UMARANI
+**Registered Number:** 2158208799
+**Month & Year of Exam:** MARCH 2021
+**Medium:** ENGLISH
+**Result:** A GRADE
+has appeared for the Intermediate Public Examination held in March 2021 and passed in the following subjects:
+
+---
+
+### **Part - I**
+
+**ENGLISH** – 98 / 100
+**SANSKRIT** – 100 / 100
+
+---
+
+### **Part - II**
+
+**HE** – 98 / 100
+
+---
+
+### **Part - III: Optional Subjects**
+
+| Subject              | Max Marks | Marks Obtained |
+| -------------------- | --------- | -------------- |
+| MATHEMATICS A        | 75        | 75             |
+| MATHEMATICS B        | 75        | 75             |
+| PHYSICS              | 60        | 58             |
+| PHYSICS PRACTICALS   | 30        | 30             |
+| CHEMISTRY            | 60        | 60             |
+| CHEMISTRY PRACTICALS | 30        | 30             |
+
+---
+
+### **Environmental Education:** QUALIFIED
+
+### **Ethics and Human Values:** QUALIFIED
+
+---
+
+**Total Marks:**
+In Figures: **982**
+In Words: **NINE EIGHT TWO**
+
+---
+
+**Date:** 28-06-2021
+**Signature of the Principal and College Seal:** Sri Chaitanya Jr. Kalasala
+**Signature:** (Controller of Examinations)
+
+---
+
+Resume 
+---
+**Katta Sai Pranav Reddy**
+Email: [kattapranavreddy@gmail.com](mailto:kattapranavreddy@gmail.com)
+GitHub: ka1817
+LinkedIn: pranav-reddy-katta
+
+---
+
+### **Professional Summary**
+
+AI and ML Engineer skilled in developing end-to-end machine learning and Generative AI solutions for real-world business challenges. Proficient in data preprocessing, exploratory data analysis, and building predictive models to deliver actionable insights. Experienced in leveraging advanced AI techniques and data-driven strategies to create scalable, impactful solutions.
+
+---
+
+### **Education**
+
+* **Anurag University**, Hyderabad, India
+  B.Tech in Artificial Intelligence and Machine Learning; CGPA: 8.29
+  *09/2021 – 04/2025*
+
+* **Sri Chaitanya Junior College**, Hyderabad, India
+  MPC (Maths, Physics, Chemistry); Percentage: 98%
+  *06/2019 – 05/2021*
+
+---
+
+### Experience
+
+**iNeuron Intelligence Pvt. Ltd.** *(Remote)*
+*Machine Learning Intern — 10/2024 – 11/2024*
+
+* Conducted extensive data preprocessing and exploratory data analysis (EDA) on large customer datasets to identify key behavioral patterns and high-value customer segments.
+* Developed and trained machine learning models for customer segmentation using clustering techniques such as K-Means and Hierarchical Clustering, enhancing marketing strategy alignment.
+* Collaborated with cross-functional teams to interpret analytical insights and monitored model performance across different stages of the pipeline, ensuring accuracy and consistency.
+* Delivered actionable recommendations based on statistical analysis and predictive modeling, supporting data-driven decision-making for targeted marketing campaigns.
+
+**Unified Mentor Pvt. Ltd.** *(Remote)*
+*Data Science Intern — 09/2024 – 10/2024*
+
+* Developed and optimized machine learning models to predict employee attrition, enabling proactive retention strategies and improving workforce stability.
+* Conducted comprehensive data preprocessing, feature engineering, and exploratory data analysis (EDA) to identify key factors influencing employee turnover.
+* Delivered actionable insights and visualized patterns through dashboards and reports, supporting HR teams in making data-driven decisions.
+* Presented findings to stakeholders, translating complex analytics into clear, strategic recommendations for reducing attrition risk.
+
+---
+
+### **Projects**
+
+## 🛒 BigBasket SmartCart – AI Assistant for BigBasket Shopping
+---
+## 🧾 Introduction
+
+The rapid evolution of AI technologies has created new opportunities for enhancing user experience in digital commerce. Leveraging state-of-the-art language models and retrieval systems, intelligent assistants can now understand complex queries, process vast amounts of product data, and deliver precise, context-aware responses. This project presents a scalable and robust AI-powered shopping assistant tailored for BigBasket's product ecosystem. Built using Retrieval-Augmented Generation (RAG), vector embeddings, and large language models (LLMs), the system enables efficient and intelligent product discovery through natural language interaction.
+
+---
+
+## ❗ Problem Statement
+
+Online shoppers frequently seek personalized and context-specific product recommendations, such as identifying the best-rated skincare item at the lowest price. However, conventional search systems often fall short in understanding such nuanced queries, lacking the ability to interpret intent, compare attributes across products, and deliver concise, relevant results. This creates friction in the user journey, leading to suboptimal shopping experiences. There is a clear need for an intelligent assistant that can process natural language queries, reason over structured product data, and deliver accurate, insightful responses to aid decision-making.
+
+---
+
+## Business Goal:
+
+To enhance the shopping experience, boost conversion rates, and optimize search efficiency by enabling natural language-based product search that understands user intent and delivers context-aware, personalized recommendations.
+
+
+
+## 💰 Business Impact (Revenue + Cost)
+
+💸 1. Increased Conversion Rates (↑ Revenue)
+
+    • Users find relevant products faster, leading to more product views, cart adds, and purchases
+
+    • Personalized recommendations match buyer intent better than traditional search
+
+    • Better UX = lower drop-off rates
+
+📈 Even a 1–2% uplift in conversions from improved product search can lead to significant revenue gains for a large marketplace like BigBasket.
+
+📉 2. Reduced Customer Support Queries (↓ Cost)
+
+    • AI assistant can handle informational and product-related queries
+
+    • Reduces manual intervention, live chat support, and email volume
+
+    • More self-service = less operational overhead
+
+⏱️ 3. Reduced Time-to-Purchase (↑ Efficiency)
+
+    • Customers make faster decisions because the assistant summarizes comparisons (e.g., price vs. rating trade-offs)
+
+    • This shortens the purchase journey and increases user satisfaction
+
+🧪 4. Rapid Experimentation & Deployment (↓ Dev Costs)
+
+    • The project is modular, Dockerized, and CI/CD enabled → easier to iterate and deploy
+
+    • Can be extended to other verticals (electronics, fashion) or other marketplaces with minimal changes
+
+---
+
+## 🚀 Features
+
+🔍 Natural Language Product Search
+Users can ask queries like "cheapest skin care with highest rating" or "best perfume under ₹500".
+
+🧠 Query Rewriting with LLM
+Uses Groq LLMs (gemma2-9b-it) to refine user queries for more precise retrieval.
+
+📄 Document Embedding & Vector Search
+Preprocessed BigBasket product data embedded with thenlper/gte-small and indexed using FAISS.
+
+🤖 RAG Pipeline
+Uses llama3-70b-8192 model for final answer generation based on retrieved and reranked results.
+
+🔁 Reranking with CrossEncoder
+Improves accuracy using cross-encoder/ms-marco-MiniLM-L-6-v2.
+
+🌐 FastAPI Backend
+Easily accessible via localhost:8000 or deployed server.
+
+🐳 Dockerized
+Build once, run anywhere. Fully containerized using Docker.
+
+🚰 CI/CD with GitHub Actions
+Automated testing, image build, and push to DockerHub.
+
+📜 Logging
+Logging implemented for each step in the pipeline for transparency and debugging.
+
+---
+
+## 🗂️ Folder Structure
+
+```bash
+BIGBASKET/
+├── .github/
+│   └── workflows/
+│       └── ci-cd.yml
+├── data/
+│   └── BigBasket Products.csv
+├── logs/
+│   ├── data_ingestion.log
+│   ├── data_preprocessing.log
+│   ├── query_rewriting.log
+│   └── retrieval_generation.log
+├── src/
+│   ├── utils/
+│   │   └── logger.py
+│   ├── __init__.py
+│   ├── data_ingestion.py
+│   ├── data_preprocessing.py
+│   ├── query_rewritting.py
+│   └── retrival_genaration.py
+├── static/
+│   └── css/
+│       └── style.css
+├── templates/
+│   └── index.html
+├── tests/
+├── ui/
+├── main.py
+├── Dockerfile
+├── requirements.txt
+├── .env
+├── .dockerignore
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🧪 Local Development Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/ka1817/BigBasket-SmartCart-AI-Assistant-for-BigBasket-Shopping
+cd BigBasket
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Before Running the app set .env(environment variable GROQ_API_KEY)
+uvicorn main:app --reload --port 8000
+```
+
+## 🐳 Docker Instructions
+
+🔧 1. Pull Image
+
+```bash
+docker pull pranavreddy123/bigbasket-assistant:latest
+```
+
+🚀 2. Run the App (Detached Mode)
+
+```bash
+docker run -d -p 8000:8000 \
+-e GROQ_API_KEY=create groq api from groq cloud \
+pranavreddy123/bigbasket-assistant:latest
+```
+
+🌐 3. Access the App
+
+```bash
+http://localhost:8000
+```
+
+---
+
+🤖 Example Usage
+
+Query: "Which is the cheapest hair product with high rating?"
+Rewritten: "Find the most affordable hair care product with a high customer rating."
+Response: "Garlic Oil - Vegetarian Capsule 500 mg by Sri Sri Ayurveda is available at ₹220 with a 4.1 rating."
+
+---
+
+## 🛠️ GitHub Actions (CI/CD)
+
+File: .github/workflows/ci-cd.yml
+
+✅ CI-Test: Runs unit tests using pytest.
+
+🐳 CD-Docker: Builds Docker image and pushes to DockerHub.
+
+Triggered on push to main or pull request.
+
+---
+
+## ☁️ Deployment on Amazon EC2
+
+### 1. Launch EC2 Instance (Ubuntu 20.04)
+
+### 2. SSH into your instance
+
+```bash
+ssh -i "your-key.pem" ubuntu@your-ec2-ip
+```
+
+### 3. Install Docker
+
+```bash
+sudo apt update
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+
+### 4. Pull and Run Docker Image
+
+```bash
+docker pull pranavreddy123/bigbasket-assistant:latest
+# Ensure your .env file is in the same directory, or create an API key using Groq Cloud and add it to the .env file
+docker run -d --env-file .env -p 8000:8000 pranavreddy123/bigbasket-assistant:latest
+```
+
+## Access your app via `http://<your-ec2-public-ip>`
+
+## 🧠 Tech Stack
+
+✅ LLMs: Groq (gemma2-9b-it, llama3-70b-8192)
+
+✅ LangChain, FAISS, HuggingFace, CrossEncoder
+
+✅ FastAPI
+
+✅ Docker
+
+✅ GitHub Actions
+
+✅ AWS EC2
+
+✅ HTML/CSS
+
+---
+
+## 🔗 Links
+
+🔍 GitHub Repo: BigBasket-SmartCart-AI-Assistant-for-BigBasket-Shopping
+
+🐳 DockerHub: pranavreddy123/bigbasket-assistant
+
+---
+
+## 🧑‍💻 Developed By
+
+Pranav Reddy
+
+**Netflix Customer Churn Prediction – End-to-End ML System** *(Personal Project)* \[GitHub]
+
+* Developed a complete machine learning pipeline to predict customer churn, achieving 99% recall and 0.99 ROC AUC through feature engineering, hyperparameter tuning, and cross-validation.
+* Performed in-depth EDA to identify key churn drivers such as low engagement, infrequent logins, and payment methods, improving model interpretability and business insights.
+* Implemented reproducible MLOps workflows with data versioning using DVC and AWS S3, and tracked experiments, metrics, and model artifacts using MLflow.
+* Designed and deployed a FastAPI-based REST API with HTML/CSS frontend for real-time predictions, containerized the application using Docker, and automated CI/CD using GitHub Actions for deployment on AWS EC2.
+
+📊 Netflix Customer Churn Prediction
+# 📊 Netflix Customer Churn Prediction
+
+## 🚀 Project Overview
+
+Netflix, like many subscription-based platforms, faces the challenge of customer churn. Retaining existing customers is significantly more cost-effective than acquiring new ones. This project delivers a full-scale machine learning solution to predict customer churn using behavioral and subscription data, from ingestion to deployment via a FastAPI interface.
+
+This repository presents a production-grade, explainable, and reproducible ML pipeline with CI/CD, experiment tracking (**MLflow**), data versioning (**DVC**), and containerized deployment using **Docker**.
+
+---
+
+## 🎯 Problem Statement
+
+Netflix seeks to proactively identify users likely to cancel their subscriptions. Predicting churn enables targeted interventions to retain users and minimize revenue loss.
+
+> **Goal:** Build an ML classification model that predicts churn based on customer behavior and plan details.
+
+---
+
+## 📌 Key Features Used
+
+| Feature                    | Type        | Description                                    |
+| -------------------------- | ----------- | ---------------------------------------------- |
+| watch\_hours               | Numerical   | Total hours watched                            |
+| last\_login\_days          | Numerical   | Days since last login                          |
+| number\_of\_profiles       | Numerical   | Total profiles under the account               |
+| avg\_watch\_time\_per\_day | Numerical   | Daily average watch time                       |
+| subscription\_type         | Categorical | Subscription level: Basic, Standard, Premium   |
+| payment\_method            | Categorical | Payment method: Credit Card, UPI, PayPal, etc. |
+| churned                    | Target      | 1 = Churned, 0 = Not churned                   |
+
+---
+
+## 📊 Key EDA Insights
+
+### 🔬 Feature Significance
+
+| Feature                    | Test           | p-value | Significant? |
+| -------------------------- | -------------- | ------- | ------------ |
+| subscription\_type         | Chi-Square     | 0.0000  | ✅ Yes        |
+| payment\_method            | Chi-Square     | 0.0000  | ✅ Yes        |
+| number\_of\_profiles       | Chi-Square     | 0.0000  | ✅ Yes        |
+| watch\_hours               | Mann-Whitney U | 0.0000  | ✅ Yes        |
+| last\_login\_days          | Mann-Whitney U | 0.0000  | ✅ Yes        |
+| avg\_watch\_time\_per\_day | Mann-Whitney U | 0.0000  | ✅ Yes        |
+| age                        | Mann-Whitney U | 0.7803  | ❌ No         |
+| gender, region, device     | Chi-Square     | > 0.3   | ❌ No         |
+
+> ✅ These statistically significant features were included in the final model pipeline.
+
+---
+
+## 🏗️ Project Architecture
+
+```bash
+netflix-churn-prediction/
+├── data/                     # Raw and processed data
+├── models/                   # Trained model binaries
+├── reports/                  # Classification reports & plots
+├── static/                   # CSS
+├── templates/                # HTML UI
+├── src/
+│   ├── data_ingestion.py     # Load dataset
+│   ├── data_preprocessing.py # Pipeline for scaling & encoding
+│   └── model_training.py     # ML training & evaluation
+├── main.py                   # FastAPI backend
+├── Dockerfile                # Containerization
+├── .dvc/                     # DVC for data version control
+├── .github/workflows/        # CI/CD GitHub Actions
+└── README.md
+```
+
+---
+
+## ⚙️ End-to-End ML Workflow
+
+### 1️⃣ Data Ingestion
+
+* Loads `.csv` into DataFrame
+* Handles errors and logs shape/summary
+
+### 2️⃣ Preprocessing
+
+* OneHotEncoding (categorical)
+* StandardScaler (numerical)
+* Uses `ColumnTransformer` for pipeline modularity
+
+### 3️⃣ Model Training
+
+* Models: `RandomForest`, `GradientBoosting`, `SVC`
+* `GridSearchCV` for hyperparameter tuning
+* Model artifacts saved to `models/`
+* ROC curves + classification reports saved to `reports/`
+
+### 4️⃣ MLflow Tracking ✅
+
+* Tracks experiment metadata, metrics, parameters
+* Stores models and artifacts
+* UI accessible at `localhost:5000`
+
+---
+
+## 🧪 Model Performance
+
+| Model             | Accuracy | F1 Score | ROC AUC (Test) | ROC AUC (CV) | Notes                         |
+| ----------------- | -------- | -------- | -------------- | ------------ | ----------------------------- |
+| Random Forest     | 0.99     | 0.99     | **0.9995**     | 0.9987       | ✅ Best overall【13†source】     |
+| Gradient Boosting | 0.99     | 0.99     | 0.9989         | 0.9991       | Robust & efficient【12†source】 |
+| SVC               | 0.93     | 0.93     | 0.9844         | 0.9822       | Lightweight【14†source】        |
+
+---
+
+## 🌐 FastAPI Deployment
+
+### 🔧 API Endpoints:
+
+* `/`: HTML frontend form for manual input
+* `/api/predict`: JSON-based API for programmatic inference
+
+### 🔌 Model Used:
+
+* Random Forest (best AUC + accuracy)
+* Accepts form or JSON input
+* Returns churn prediction + confidence
+
+---
+
+## 🐳 Docker Setup
+
+```Dockerfile
+FROM python:3.10-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . .
+EXPOSE 8000
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+```
+
+Run locally:
+
+```bash
+docker build -t netflix-churn .
+docker run -p 8000:8000 netflix-churn
+```
+
+---
+
+## 🔁 CI/CD Pipeline (GitHub Actions)
+
+### ✅ Stages:
+
+1. **Test Phase**
+
+   * Install dependencies
+   * Run `pytest` on unit tests
+   * Pull versioned data using `dvc pull`
+
+2. **Build Phase**
+
+   * Docker image build with `CACHEBUST` arg
+   * Push to DockerHub using GitHub Secrets
+
+3. **Deploy Phase**
+
+   * SSH into EC2 instance
+   * Stop, remove old container
+   * Pull and launch updated Docker image
+
+### 🔐 GitHub Repository Secrets
+
+| Name                    | Purpose                            |
+| ----------------------- | ---------------------------------- |
+| `AWS_ACCESS_KEY_ID`     | AWS auth for DVC S3                |
+| `AWS_SECRET_ACCESS_KEY` | AWS auth for DVC S3                |
+| `DOCKER_USERNAME`       | DockerHub username for push        |
+| `DOCKER_PASSWORD`       | DockerHub password/token           |
+| `EC2_HOST`              | Public IP/DNS of EC2 instance      |
+| `EC2_USER`              | SSH user for EC2 login             |
+| `EC2_SSH_KEY`           | Private SSH key for GitHub Actions |
+
+---
+
+## 🧬 Data Versioning with DVC
+
+* Tracks raw and preprocessed data versions
+* Uses `.dvc/config` to connect to **AWS S3** remote
+* Run `dvc push` and `dvc pull` to sync across environments
+* Ensures reproducibility in CI and local experiments
+
+---
+
+## 📌 Business Value & Insights
+
+* 🧠 **High-risk churn users** are linked to:
+
+  * Low engagement (low watch hours)
+  * Infrequent logins
+  * Basic plans & non-card payments
+
+* 📈 **Operational Benefits**:
+
+  * Preemptive retention campaigns
+  * Personalized offers to vulnerable users
+  * Reduce marketing costs via targeted outreach
+
+---
+
+## ✅ Run Locally (No Docker)
+
+```bash
+git clone <repo_url>
+cd netflix-churn-prediction
+python src/model_training.py        # Train all models
+uvicorn main:app --reload           # Launch API server
+```
+
+---
+## Summary
+
+| **Component**            | **Implemented** | **Tool/Service Used**                     |
+| ------------------------ | --------------- | ----------------------------------------- |
+| **Data Versioning**      | ✅               | `DVC` with `AWS S3` remote                |
+| **Data Ingestion**       | ✅               | `pandas`, custom Python class             |
+| **Data Preprocessing**   | ✅               | `scikit-learn` Pipelines                  |
+| **Model Training**       | ✅               | `scikit-learn`, `GridSearchCV`            |
+| **Experiment Tracking**  | ✅               | `MLflow` (local server: `127.0.0.1:5000`) |
+| **Model Evaluation**     | ✅               | `classification_report`, ROC AUC          |
+| **Model Packaging**      | ✅               | `joblib` for serialization                |
+| **API Deployment**       | ✅               | `FastAPI` on `AWS EC2`                    |
+| **Web UI**               | ✅               | HTML + Bootstrap via Jinja2               |
+| **Containerization**     | ✅               | `Docker` (with `Dockerfile`)              |
+| **CI/CD Pipeline**       | ✅               | `GitHub Actions`                          |
+| **Cloud Hosting**        | ✅               | `AWS EC2`, SSH-based deployment           |
+| **Secrets Management**   | ✅               | `GitHub Secrets`                          |
+| **Testing**              | ✅               | `pytest`, CI-tested                       |
+
+---
+## 🙌 Author
+
+* 👨‍💻 Katta Sai Pranav Reddy
+
+---
+## 🔗 Links
+
+🔍 GitHub Repo: Netflix-Customer-Churn-Prediction-Using-Machine-Learning
+
+🐳 DockerHub: pranavreddy123/netflix-churn-prediction
+
+## 📎 Tech Stack
+
+* **Python 3.10**
+* **Scikit-learn**, **MLflow**, **DVC**, **FastAPI**, **Docker**
+* **GitHub Actions**, **AWS EC2**, **S3 Remote Storage**
+---
+
+### **Skills**
+
+* **Tools:** MLflow, DVC, Docker, Git, GitHub Actions, AWS (EC2, S3, ECR), FAISS, Pinecone, Hugging Face, LangChain, LangSmith, FastAPI
+* **Programming & Technical Skills:** Python, SQL, HTML, CSS, Scikit-learn, TensorFlow, Keras, Statistics
+* **Data Science & Machine Learning:** Data Preprocessing, EDA, Feature Engineering, Model Training & Evaluation, Hyperparameter Tuning, Clustering, MLOps, Semantic Search, Retrieval-Augmented Generation (RAG), CNN, RNN, GPT, Transformers, Fine-Tuning, Prompt Engineering
+* **Data Visualization & Analysis:** Pandas, NumPy, Matplotlib, Seaborn
+
+---
+
+hobbies section 
+
+---
+
+### **Hobbies & Interests**
+Hobbies & Interests
+
+* Playing Cricket
+* Watching Football
+* Reading Books
+* Exploring Latest Advancements in Artificial Intelligence
+* Browsing the Internet for Tech & Knowledge Updates
+
+---
+
+### Contact Information
+
+Contact Information
+
+📞 **Phone:** +91 93475 41040
+📧 **Email:** [kattapranavreddy@gmail.com](mailto:kattapranavreddy@gmail.com)
+💻 **GitHub:** [github.com/ka1817](https://github.com/ka1817)
+🔗 **LinkedIn:** [linkedin.com/in/pranav-reddy-katta](https://www.linkedin.com/in/pranav-reddy-katta/)
+---
+
+---
+Certifications By Pranav Reddy
+Certifications:  
+(All from Udemy)  
+- Python for Data Science and Machine Learning  
+- The Complete SQL Bootcamp  
+- Generative AI with LangChain and HuggingFace  
+- End-To-End MLOps Bootcamp  
+
+---
+
