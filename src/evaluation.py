@@ -18,17 +18,13 @@ from src.retrival_generation import RetrievalGeneration
 
 class Evaluation:
     def __init__(self, vectorstore_path: str, llm_model: str = "llama-3.3-70b-versatile"):
-        # Load environment and API keys
         load_dotenv()
         self.groq_api_key = os.getenv("GROQ_API_KEY")
 
-        # Initialize LLM
         self.llm = ChatGroq(api_key=self.groq_api_key, model=llm_model)
 
-        # Initialize embeddings
         self.embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
 
-        # Initialize vectorstore
         self.vectorstore_path = vectorstore_path
         self.vectorstore = FAISS.load_local(
             self.vectorstore_path,
@@ -36,7 +32,6 @@ class Evaluation:
             allow_dangerous_deserialization=True
         )
 
-        # Initialize retrieval-generation pipeline
         self.rg = RetrievalGeneration(vectorstore_path=vectorstore_path)
         self.rg.init_vectorstore()
         self.qa = self.rg.build_rag_chain()
@@ -45,7 +40,6 @@ class Evaluation:
         """Run evaluation with or without reranking"""
 
         if use_reranker:
-            # Load reranker
             cross_encoder_model = HuggingFaceCrossEncoder(model_name="cross-encoder/ms-marco-MiniLM-L-6-v2")
             compressor = CrossEncoderReranker(model=cross_encoder_model, top_n=3)
             retriever = ContextualCompressionRetriever(
@@ -69,7 +63,6 @@ class Evaluation:
 
         dataset = Dataset.from_dict(data)
 
-        # Configure Ragas evaluation
         run_config = RunConfig(
             timeout=290,
             max_retries=5,
