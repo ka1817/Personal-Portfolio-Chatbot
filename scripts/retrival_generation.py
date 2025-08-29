@@ -8,9 +8,9 @@ from src.retrival_generation import RetrievalGeneration
 
 def main():
 
-    retriever = RetrievalGeneration(vectorstore_path="faiss_store")
+    retriever = RetrievalGeneration(vectorstore_path="local_faiss_index")
 
-    retriever.init_vectorstore(rebuild=False)
+    retriever.init_vectorstore(rebuild=True)
 
     rag_chain = retriever.build_rag_chain(k=5)
 

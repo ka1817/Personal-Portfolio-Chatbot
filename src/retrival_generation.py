@@ -9,6 +9,9 @@ from langchain_community.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 from langchain.schema import StrOutputParser
 from langchain.schema.runnable import RunnableParallel, RunnablePassthrough
+from langchain.retrievers import ContextualCompressionRetriever
+from langchain.retrievers.document_compressors.cross_encoder_rerank import CrossEncoderReranker
+from langchain_community.cross_encoders import HuggingFaceCrossEncoder
 
 warnings.filterwarnings("ignore")
 
@@ -47,7 +50,7 @@ class RetrievalGeneration:
             )
         else:
             logger.warning("Building new FAISS index...")
-            chunks = DataSplitting(chunk_size=1000, chunk_overlap=200).chunking()
+            chunks = DataSplitting(chunk_size=1500, chunk_overlap=500).chunking()
             logger.info("Data split into %d chunks", len(chunks))
             self.vectorstore = FAISS.from_documents(chunks, embeddings)
             self.vectorstore.save_local(self.vectorstore_path)
@@ -55,12 +58,17 @@ class RetrievalGeneration:
 
         return self.vectorstore
 
-    def build_rag_chain(self, k: int = 5):
+    def build_rag_chain(self, k: int = 10,top_n: int = 5):
         if not self.vectorstore:
             raise ValueError("Vectorstore not initialized. Run init_vectorstore() first.")
 
         logger.info("Creating retriever from FAISS vectorstore (top_k=%d)...", k)
-        retriever = self.vectorstore.as_retriever(search_kwargs={"k": k})
+        cross_encoder_model = HuggingFaceCrossEncoder(model_name="cross-encoder/ms-marco-MiniLM-L-6-v2")
+
+        compressor = CrossEncoderReranker(model=cross_encoder_model, top_n=top_n)  
+
+        retriever = ContextualCompressionRetriever(base_compressor=compressor,base_retriever=self.vectorstore.as_retriever(search_kwargs={"k": k}))
+
 
         prompt = PromptTemplate(
             template="""
@@ -87,7 +95,7 @@ Helpful Answer:""",
             | StrOutputParser()
         )
 
-        logger.info("RAG chain successfully built.")
+        logger.info("RAG chain with reranking successfully built.")
         return self.rag_chain
 
     
