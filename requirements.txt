@@ -3,5 +3,7 @@ langchain-groq
 langchain-community
 pypdf
 python-dotenv
+fastapi
 sentence-transformers
 faiss-cpu
+uvicorn
