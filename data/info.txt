@@ -694,7 +694,7 @@ AI and ML Engineer skilled in developing end-to-end machine learning and Generat
 
 ---
 
-### **Education**
+# Education
 
 * **Anurag University**, Hyderabad, India
   B.Tech in Artificial Intelligence and Machine Learning; CGPA: 8.29
@@ -706,7 +706,9 @@ AI and ML Engineer skilled in developing end-to-end machine learning and Generat
 
 ---
 
-### Experience
+# Work Experience
+
+Work Experience
 
 **iNeuron Intelligence Pvt. Ltd.** *(Remote)*
 *Machine Learning Intern — 10/2024 – 11/2024*
@@ -726,9 +728,11 @@ AI and ML Engineer skilled in developing end-to-end machine learning and Generat
 
 ---
 
-### **Projects**
+# Projects
 
-## 🛒 BigBasket SmartCart – AI Assistant for BigBasket Shopping
+Pranav Reddy's Projects
+
+1. 🛒 BigBasket SmartCart – AI Assistant for BigBasket Shopping
 ---
 ## 🧾 Introduction
 
@@ -853,7 +857,7 @@ BIGBASKET/
 
 ---
 
-## 🧪 Local Development Setup
+# 🧪 Local Development Setup
 
 ```bash
 # Clone the repository
@@ -974,7 +978,8 @@ docker run -d --env-file .env -p 8000:8000 pranavreddy123/bigbasket-assistant:la
 
 Pranav Reddy
 
-**Netflix Customer Churn Prediction – End-to-End ML System** *(Personal Project)* \[GitHub]
+
+2.Netflix Customer Churn Prediction – End-to-End ML System** *(Personal Project)* \[GitHub]
 
 * Developed a complete machine learning pipeline to predict customer churn, achieving 99% recall and 0.99 ROC AUC through feature engineering, hyperparameter tuning, and cross-validation.
 * Performed in-depth EDA to identify key churn drivers such as low engagement, infrequent logins, and payment methods, improving model interpretability and business insights.
@@ -984,7 +989,7 @@ Pranav Reddy
 📊 Netflix Customer Churn Prediction
 # 📊 Netflix Customer Churn Prediction
 
-## 🚀 Project Overview
+#  Project Overview
 
 Netflix, like many subscription-based platforms, faces the challenge of customer churn. Retaining existing customers is significantly more cost-effective than acquiring new ones. This project delivers a full-scale machine learning solution to predict customer churn using behavioral and subscription data, from ingestion to deployment via a FastAPI interface.
 
@@ -992,7 +997,7 @@ This repository presents a production-grade, explainable, and reproducible ML pi
 
 ---
 
-## 🎯 Problem Statement
+#  Problem Statement
 
 Netflix seeks to proactively identify users likely to cancel their subscriptions. Predicting churn enables targeted interventions to retain users and minimize revenue loss.
 
@@ -1000,7 +1005,7 @@ Netflix seeks to proactively identify users likely to cancel their subscriptions
 
 ---
 
-## 📌 Key Features Used
+##  Key Features Used
 
 | Feature                    | Type        | Description                                    |
 | -------------------------- | ----------- | ---------------------------------------------- |
@@ -1014,7 +1019,7 @@ Netflix seeks to proactively identify users likely to cancel their subscriptions
 
 ---
 
-## 📊 Key EDA Insights
+##  Key EDA Insights
 
 ### 🔬 Feature Significance
 
@@ -1033,7 +1038,7 @@ Netflix seeks to proactively identify users likely to cancel their subscriptions
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ```bash
 netflix-churn-prediction/
