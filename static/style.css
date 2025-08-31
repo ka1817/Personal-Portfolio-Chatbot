@@ -33,7 +33,7 @@ body {
 
   .chatbot-container {
     width: 100vw;
-    height: 88vh;   
+    height: 94vh; 
     border-radius: 0;
     box-shadow: none;
     display: flex;
@@ -41,7 +41,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    padding-bottom: env(safe-area-inset-bottom); 
+    padding-bottom: env(safe-area-inset-bottom);
+    overflow: hidden;
   }
 
   .chat-header h2 {
@@ -52,7 +53,8 @@ body {
     font-size: 16px;
     padding: 12px;
     overflow-y: auto;
-    flex: 1;
+    flex: 1 1 auto;
+    min-height: 0; 
   }
 
   #user-input {
@@ -77,24 +79,27 @@ body {
     left: 0;
     right: 0;
     max-height: 45vh;
-    overflow-y: auto;   
+    overflow-y: auto;
+    flex-shrink: 0; 
   }
 
   .option-btn {
-    flex: 1 1 48%;          
+    flex: 1 1 48%;
     font-size: 16px;
     margin: 6px 1%;
     padding: 14px;
-    white-space: normal;    
+    white-space: normal;
     word-break: break-word;
     text-align: center;
     box-sizing: border-box;
   }
+}
 
-  @media (max-width: 400px) {
-    .option-btn {
-      flex: 1 1 100%;       
-      max-width: 100%;
+@supports (-webkit-touch-callout: none) {
+  @media (max-width: 700px) {
+    .chatbot-container {
+      height: 88svh; 
+      height: 88vh;  
     }
   }
 }
@@ -131,7 +136,7 @@ body {
   width: 26px;
   height: 26px;
   cursor: pointer;
-  filter: invert(1);  
+  filter: invert(1);
   transition: transform 0.2s ease;
 }
 
@@ -140,12 +145,13 @@ body {
 }
 
 .chat-body {
-  flex: 1;
+  flex: 1 1 auto;
   padding: 10px;
   overflow-y: auto;
   background: #fafafa;
   display: flex;
   flex-direction: column;
+  min-height: 0;
 }
 
 .bot-msg {
@@ -186,8 +192,8 @@ body {
 }
 
 @keyframes blink {
-  0%   { opacity: 0.4; }
-  50%  { opacity: 1; }
+  0% { opacity: 0.4; }
+  50% { opacity: 1; }
   100% { opacity: 0.4; }
 }
 

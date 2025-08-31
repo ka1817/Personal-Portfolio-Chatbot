@@ -50,7 +50,7 @@ class RetrievalGeneration:
             )
         else:
             logger.warning("Building new FAISS index...")
-            chunks = DataSplitting(chunk_size=1500, chunk_overlap=500).chunking()
+            chunks = DataSplitting(chunk_size=2000, chunk_overlap=800).chunking()
             logger.info("Data split into %d chunks", len(chunks))
             self.vectorstore = FAISS.from_documents(chunks, embeddings)
             self.vectorstore.save_local(self.vectorstore_path)
@@ -71,19 +71,30 @@ class RetrievalGeneration:
 
 
         prompt = PromptTemplate(
-            template="""
-You are a knowledgeable AI assistant answering questions about
-the professional background, projects, skills, and certifications of Katta Sai Pranav Reddy.
+        template="""
+You are a professional and concise AI assistant that answers questions
+about the career, education, skills, projects, certifications, and professional 
+background of **Katta Sai Pranav Reddy**.
 
-If the context does not contain enough information, politely say so.
+Your job is to:
+- Use ONLY the provided context to answer.
+- Be recruiter-friendly: structured, clear, and professional in tone.
+- If the question is unrelated to Katta Sai Pranav Reddy’s professional profile, 
+  politely decline by saying: 
+  "I can only answer questions related to the professional background of Katta Sai Pranav Reddy."
+- If the context does not provide enough information, say: 
+  "The available information does not cover that detail."
 
 Context:
 {context}
 
-Question: {question}
-Helpful Answer:""",
-            input_variables=["context", "question"]
-        )
+Question:
+{question}
+
+Answer (clear, structured, recruiter-focused):
+""",
+        input_variables=["context", "question"]
+)
 
         self.rag_chain = (
             RunnableParallel({

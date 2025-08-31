@@ -20,10 +20,8 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
-# ✅ Mount static folder for CSS/JS
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-# ✅ Setup templates for HTML
 templates = Jinja2Templates(directory="templates")
 
 @app.get("/", response_class=HTMLResponse)
@@ -36,4 +34,4 @@ def predict(request: QueryRequest):
     return {"response": response}
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=4000, reload=True)

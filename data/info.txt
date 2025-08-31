@@ -704,29 +704,29 @@ AI and ML Engineer skilled in developing end-to-end machine learning and Generat
   MPC (Maths, Physics, Chemistry); Percentage: 98%
   *06/2019 – 05/2021*
 
----
+-----------------------------------------
 
-# Work Experience
+### Pranav Work Experience
 
 Work Experience
 
-**iNeuron Intelligence Pvt. Ltd.** *(Remote)*
-*Machine Learning Intern — 10/2024 – 11/2024*
+iNeuron Intelligence Pvt. Ltd.(Remote)
+Machine Learning Intern — 10/2024 – 11/2024
 
-* Conducted extensive data preprocessing and exploratory data analysis (EDA) on large customer datasets to identify key behavioral patterns and high-value customer segments.
-* Developed and trained machine learning models for customer segmentation using clustering techniques such as K-Means and Hierarchical Clustering, enhancing marketing strategy alignment.
-* Collaborated with cross-functional teams to interpret analytical insights and monitored model performance across different stages of the pipeline, ensuring accuracy and consistency.
-* Delivered actionable recommendations based on statistical analysis and predictive modeling, supporting data-driven decision-making for targeted marketing campaigns.
+1.Conducted extensive data preprocessing and exploratory data analysis (EDA) on large customer datasets to identify key behavioral patterns and high-value customer segments.
+2.Developed and trained machine learning models for customer segmentation using clustering techniques such as K-Means and Hierarchical Clustering, enhancing marketing strategy alignment.
+3.Collaborated with cross-functional teams to interpret analytical insights and monitored model performance across different stages of the pipeline, ensuring accuracy and consistency.
+4.Delivered actionable recommendations based on statistical analysis and predictive modeling, supporting data-driven decision-making for targeted marketing campaigns.
 
-**Unified Mentor Pvt. Ltd.** *(Remote)*
-*Data Science Intern — 09/2024 – 10/2024*
+Unified Mentor Pvt. Ltd.(Remote)
+Data Science Intern — 09/2024 – 10/2024
+1. Developed and optimized machine learning models to predict employee attrition, enabling proactive retention strategies and improving workforce stability.
+2. Conducted comprehensive data preprocessing, feature engineering, and exploratory data analysis (EDA) to identify key factors influencing employee turnover.
+3. Delivered actionable insights and visualized patterns through dashboards and reports, supporting HR teams in making data-driven decisions.
+4. Presented findings to stakeholders, translating complex analytics into clear, strategic recommendations for reducing attrition risk.
 
-* Developed and optimized machine learning models to predict employee attrition, enabling proactive retention strategies and improving workforce stability.
-* Conducted comprehensive data preprocessing, feature engineering, and exploratory data analysis (EDA) to identify key factors influencing employee turnover.
-* Delivered actionable insights and visualized patterns through dashboards and reports, supporting HR teams in making data-driven decisions.
-* Presented findings to stakeholders, translating complex analytics into clear, strategic recommendations for reducing attrition risk.
 
----
+-------------------------
 
 # Projects
 
