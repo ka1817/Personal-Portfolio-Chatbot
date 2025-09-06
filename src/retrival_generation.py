@@ -91,7 +91,6 @@ Answer:
     input_variables=["context", "question"]
 )
 
-
         self.rag_chain = (
             RunnableParallel({
                 "context": retriever | RunnableLambda(lambda chunks: "\n\n".join([d.page_content for d in chunks])) ,

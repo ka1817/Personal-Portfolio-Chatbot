@@ -31,6 +31,7 @@ class DataIngestion:
         logger.info(f"Loading file: {self.path}")
         df = pd.read_csv(self.path)
         logger.info(f"Loaded {df.shape} data from {self.path}")
+        
         return df
 
 

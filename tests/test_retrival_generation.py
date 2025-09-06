@@ -10,7 +10,6 @@ def test_init_vectorstore_with_existing_index():
         f"Expected FAISS index at {vectorstore_path}, but not found."
         "Run init_vectorstore(rebuild=True) once before tests."
     )
-
     rg = RetrievalGeneration(vectorstore_path=vectorstore_path)
     vs = rg.init_vectorstore(rebuild=False)
     assert vs is not None

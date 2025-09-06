@@ -9,7 +9,6 @@ def test_load_custom_file(sample_text_file):
     df = ingestor.load_data()
 
     assert not df.empty, "Ingested DataFrame should not be empty"
-
 def test_missing_file_raises_error(tmp_path):
     """❌ Ensure missing file raises FileNotFoundError."""
     missing_file = tmp_path / "does_not_exist.txt"

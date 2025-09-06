@@ -27,6 +27,7 @@ templates = Jinja2Templates(directory="templates")
 @app.get("/", response_class=HTMLResponse)
 def home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
+
 @app.post("/predict")
 def predict(request: QueryRequest):
     response = retriever.rag_chain.invoke(request.query)

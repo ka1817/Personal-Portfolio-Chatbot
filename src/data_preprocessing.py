@@ -8,7 +8,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 class DataSplitting:
-
     def __init__(self):
         logger.info("Initialized DataSplitting")
 

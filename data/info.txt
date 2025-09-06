@@ -1284,5 +1284,6 @@ Certifications:
 - The Complete SQL Bootcamp  
 - Generative AI with LangChain and HuggingFace  
 - End-To-End MLOps Bootcamp  
+
 ---
 

@@ -3,6 +3,7 @@ pandas
 langchain-groq
 langchain-community
 langchain_huggingface
+sentence_transformers 
 python-dotenv
 fastapi
 faiss-cpu

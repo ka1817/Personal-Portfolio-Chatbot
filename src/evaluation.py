@@ -38,7 +38,6 @@ class Evaluation:
 
     def run(self, questions: list, ground_truth: list, use_reranker: bool = False):
         """Run evaluation with or without reranking """
-
         if use_reranker:
             cross_encoder_model = HuggingFaceCrossEncoder(model_name="cross-encoder/ms-marco-MiniLM-L-6-v2")
             compressor = CrossEncoderReranker(model=cross_encoder_model, top_n=3)
