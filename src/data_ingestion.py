@@ -1,6 +1,7 @@
 import os
 import logging
 from langchain_community.document_loaders import TextLoader
+import pandas as pd
 
 logging.basicConfig(
     level=logging.INFO,
@@ -14,7 +15,7 @@ class DataIngestion:
     def __init__(self, path: str | None = None):
         if path is None:
             default_path = os.path.join(
-                os.path.dirname(__file__), "..", "data", "info.txt"
+                os.path.dirname(__file__), "..", "data", "pranav_portfolio_dataset.csv"
             )
             self.path = os.path.abspath(default_path)
             logger.info(f"No path provided. Using default file: {self.path}")
@@ -29,10 +30,9 @@ class DataIngestion:
             raise FileNotFoundError(f"File not found: {self.path}")
 
         logger.info(f"Loading file: {self.path}")
-        loader = TextLoader(self.path, encoding="utf-8")
-        docs = loader.load()
-        logger.info(f"Loaded {len(docs)} documents from {self.path}")
-        return docs
+        df = pd.read_csv(self.path)
+        logger.info(f"Loaded {df.shape} data from {self.path}")
+        return df
 
 
 

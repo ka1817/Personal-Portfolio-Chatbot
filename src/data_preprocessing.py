@@ -1,5 +1,5 @@
 import logging
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.schema import Document
 from src.data_ingestion import DataIngestion
 
 logging.basicConfig(
@@ -11,27 +11,21 @@ logger = logging.getLogger(__name__)
 
 class DataSplitting:
 
-    def __init__(self, chunk_size: int = 40, chunk_overlap: int = 20):
-        self.chunk_size = chunk_size
-        self.chunk_overlap = chunk_overlap
-        logger.info(
-            f"Initialized DataSplitting with chunk_size={chunk_size}, chunk_overlap={chunk_overlap}"
-        )
+    def __init__(self):
+        logger.info("Initialized DataSplitting")
 
     def chunking(self):
-        logger.info("Starting document ingestion before splitting...")
+        logger.info("Starting document ingestion...")
         data = DataIngestion()
-        docs = data.load_data()
-        logger.info(f"Received {len(docs)} documents for splitting.")
+        df = data.load_data()
+        logger.info(f"Received data with shape {df.shape} for creating documents.")
 
-        splitter = RecursiveCharacterTextSplitter(
-            chunk_size=self.chunk_size,
-            chunk_overlap=self.chunk_overlap,
-        )
-        logger.debug("Splitter initialized. Splitting documents...")
-        chunks = splitter.split_documents(docs)
+        chunks = []
+        for i, row in df.iterrows():
+            text = f"Question: {row['query']}\nAnswer: {row['response']}"
+            chunks.append(Document(page_content=text))
+        logger.info(f"Converted {len(chunks)} rows into Document objects.")
 
-        logger.info(f"Created {len(chunks)} chunks from {len(docs)} documents.")
         return chunks
 
 

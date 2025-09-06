@@ -1,9 +1,8 @@
 langchain
 langchain-groq
 langchain-community
-pypdf
+langchain_huggingface
 python-dotenv
 fastapi
-sentence-transformers
 faiss-cpu
 uvicorn

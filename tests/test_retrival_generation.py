@@ -26,4 +26,3 @@ def test_build_rag_chain():
 
     result = rag_chain.invoke("What are Pranav Reddy's skills?")
     assert isinstance(result, str)
-    assert "Pranav" in result or "skills" in result

@@ -8,7 +8,7 @@ from langchain_groq import ChatGroq
 from langchain_community.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 from langchain.schema import StrOutputParser
-from langchain.schema.runnable import RunnableParallel, RunnablePassthrough
+from langchain.schema.runnable import RunnableParallel, RunnablePassthrough,RunnableLambda
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors.cross_encoder_rerank import CrossEncoderReranker
 from langchain_community.cross_encoders import HuggingFaceCrossEncoder
@@ -50,7 +50,7 @@ class RetrievalGeneration:
             )
         else:
             logger.warning("Building new FAISS index...")
-            chunks = DataSplitting(chunk_size=2000, chunk_overlap=800).chunking()
+            chunks = DataSplitting().chunking()
             logger.info("Data split into %d chunks", len(chunks))
             self.vectorstore = FAISS.from_documents(chunks, embeddings)
             self.vectorstore.save_local(self.vectorstore_path)
@@ -67,22 +67,17 @@ class RetrievalGeneration:
 
         compressor = CrossEncoderReranker(model=cross_encoder_model, top_n=top_n)  
 
-        retriever = ContextualCompressionRetriever(base_compressor=compressor,base_retriever=self.vectorstore.as_retriever(search_kwargs={"k": k}))
+        retriever = ContextualCompressionRetriever(base_compressor=compressor,base_retriever=self.vectorstore.as_retriever(search_type="similarity",search_kwargs={"k": k}))
 
 
         prompt = PromptTemplate(
-        template="""
-You are a professional and concise AI assistant that answers questions
-about the career, education, skills, projects, certifications, and professional 
-background of **Katta Sai Pranav Reddy**.
+    template="""
+You are a professional AI assistant answering questions about **Katta Sai Pranav Reddy**'s
+career, education, skills, projects, certifications, professional background, and personal details.
 
-Your job is to:
-- Use ONLY the provided context to answer.
-- Be recruiter-friendly: structured, clear, and professional in tone.
-- If the question is unrelated to Katta Sai Pranav Reddy’s professional profile, 
-  politely decline by saying: 
-  "I can only answer questions related to the professional background of Katta Sai Pranav Reddy."
-- If the context does not provide enough information, say: 
+- Use the provided context when available.
+- Keep answers concise, structured, and recruiter-friendly.
+- If the context or your knowledge does not cover something, respond with:  
   "The available information does not cover that detail."
 
 Context:
@@ -91,14 +86,15 @@ Context:
 Question:
 {question}
 
-Answer (clear, structured, recruiter-focused):
+Answer:
 """,
-        input_variables=["context", "question"]
+    input_variables=["context", "question"]
 )
+
 
         self.rag_chain = (
             RunnableParallel({
-                "context": retriever,
+                "context": retriever | RunnableLambda(lambda chunks: "\n\n".join([d.page_content for d in chunks])) ,
                 "question": RunnablePassthrough()
             })
             | prompt

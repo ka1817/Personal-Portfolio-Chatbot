@@ -6,6 +6,9 @@ __pycache__/
 notebook/
 scripts/
 venv/
+.git
+.gitignore
+.github/
 
 
 *.egg-info/
@@ -26,3 +29,15 @@ dist/
 
 .DS_Store
 Thumbs.db
+.env
+.venv
+*.env
+*.venv
+
+tests/
+pytest.ini
+README.md
+*.md
+
+Dockerfile
+.dockerignore

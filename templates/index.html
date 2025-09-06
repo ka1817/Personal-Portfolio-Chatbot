@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>Pranav Reddy Portfolio Chatbot</title>
-  <link rel="stylesheet" href="/static/style.css?v=6">
+  <link rel="stylesheet" href="/static/style.css?v=7">
 </head>
 <body>
   <div class="chatbot-container">
@@ -26,7 +26,7 @@
     </div>
 
     <div class="quick-options">
-      <button class="option-btn" data-query="what are Pranav Reddy’s Projects-BigBasket Samrt Cart and Netflex churn Prediction">
+      <button class="option-btn" data-query="what are Pranav Reddy’s Projects">
         📂 Project Details
       </button>
       <button class="option-btn" data-query="How can I contact Pranav Reddy?">
@@ -35,7 +35,7 @@
       <button class="option-btn" data-query="What are Pranav Reddy’s Skills?">
         💡 Skills
       </button>  
-      <button class="option-btn" data-query="Share Pranav Reddy’s Work Experience">
+      <button class="option-btn" data-query="Share Pranav Reddy’s Internship Experience">
         💼 Experience
       </button>
     </div>
@@ -47,11 +47,18 @@
     const sendBtn = document.getElementById("send-btn");
     const optionButtons = document.querySelectorAll(".option-btn");
 
+    // ✅ Updated: allow HTML in bot messages
     function appendMessage(sender, text, extraClass = "") {
       const msg = document.createElement("div");
       msg.classList.add(sender === "user" ? "user-msg" : "bot-msg");
       if (extraClass) msg.classList.add(extraClass);
-      msg.textContent = text;
+
+      if (sender === "bot") {
+        msg.innerHTML = text;  // render as HTML
+      } else {
+        msg.textContent = text; // keep user input safe
+      }
+
       chatBody.appendChild(msg);
       chatBody.scrollTop = chatBody.scrollHeight;
       return msg; 

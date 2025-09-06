@@ -12,10 +12,10 @@ def main():
 
     retriever.init_vectorstore(rebuild=True)
 
-    rag_chain = retriever.build_rag_chain(k=5)
+    rag_chain = retriever.build_rag_chain(k=10,top_n=5)
 
     
-    query = "Give me the contact details of pranav reddy" 
+    query = "share pranav reddy skills" 
 
     print(f"\n❓ Question: {query}")
     response = rag_chain.invoke(query)

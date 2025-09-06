@@ -1,0 +1,416 @@
+query,response
+who is Katta Sai Pranav Reddy? ,"Katta Sai Pranav Reddy is an AI & ML Engineer passionate about building scalable, real-world AI solutions. With expertise in Generative AI, MLOps, and Retrieval-Augmented Generation, he has developed impactful projects like BigBasket SmartCart and Netflix Churn Prediction. Skilled in Python, MLflow, Docker, and AWS, he combines strong technical foundations with hands-on deployment experience to deliver high-impact, production-ready AI systems."
+Katta Sai Pranav Reddy 10th class marks sheet and achievements?”,"Katta Sai Pranav Reddy, son of Katta Srinivas Reddy and Katta Umarani, was born on 3rd June 2003 and pursued his schooling at Ekalavya Foundation School, Nalgonda, with English as the medium of instruction. He appeared for the Secondary School Certificate (SSC) Examination in March 2019 under Roll No. 1929100642 and achieved an outstanding CGPA of 9.5. His academic record reflects consistent excellence, with A1 grades in Telugu, English, Mathematics, Science, and Social Studies, and a B1 grade in Hindi. In addition to academics, he demonstrated strong all-round performance by securing A+ grades in Value Education & Life Skills, Art & Cultural Education, Work & Computer Education, and Physical & Health Education. This certificate was formally issued on 13th May 2019 by the Board of Secondary Education, Telangana State, Hyderabad."
+Contact Information,"Contact Information 📞 Phone: +91 93475 41040,📧 Email: [kattapranavreddy@gmail.com](mailto:kattapranavreddy@gmail.com),💻 GitHub: [github.com/ka1817](https://github.com/ka1817),🔗 LinkedIn: [linkedin.com/in/pranav-reddy-katta](https://www.linkedin.com/in/pranav-reddy-katta/)."
+Katta Sai Pranav Reddy Intermediate 12th marks sheet and achievements,"Katta Sai Pranav Reddy, son of Katta Srinivas Reddy and Katta Umarani, comIntermediate education under the Telangana State Board of Intermediate EducationinAnd, with English as the medium of instruction. He was enrolled at Sri Chaitanya Junior Kalasala, Hyderabad (College Code: 53419), and registered under No. 2158260798.Demonstrating academic excellence, he secured an overall A Grade with a remarkable score of 982 out of 1000 marks.In English 95/100 and 98/100 in Sanskrit. In the optional subjects, he attained full marks in Mathematics A (75/75), Chemistry (60/60), Physics Practicals (30/30), and Chemistry Practicals (30/30), along with near-perfect scores in Mathematics B (73/75) and Physics Theory (58/60).In addition to his core academics, he was also certified as qualified in Environmental Education and Ethics & Human Values, showcasing a strong foundation in both technical and ethical learning. The certificate was formally issued on 28th June 2021 by the Controller of Examinations, Telangana State Board of Intermediate Education, Hyderabad, and endorsed by the Principal of Sri Chaitanya Junior Kalasala."
+What is your email address?,My email is kattapranavreddy@gmail.com.
+What is your phone number?,My phone number is +91 93475 41040.
+What are Pranav Reddy's skills?,"📌 Skills
+• Tools: MLflow, DVC, Docker, Git, GitHub Actions, AWS (EC2, S3, ECR), FAISS, Pinecone, Hugging Face, LangChain, LangSmith, FastAPI
+• Programming & Technical Skills: Python, SQL, HTML, CSS, Scikit-learn, TensorFlow, Keras, Statistics
+• Data Science & Machine Learning: Data Preprocessing, Exploratory Data Analysis (EDA), Feature Engineering, Model Training & Evaluation, Hyperparameter Tuning, Clustering, MLOps, Semantic Search, Retrieval-Augmented Generation (RAG), CNN, RNN, GPT, Transformers, Fine-Tuning, Prompt Engineering
+• Data Visualization & Analysis: Pandas, NumPy, Matplotlib, Seaborn"
+Explain the project BigBasket SmartCart developed by Pranav Reddy?,"🛒 BigBasket SmartCart – AI Assistant for BigBasket Shopping
+---
+🧾 Introduction
+
+The rapid evolution of AI technologies has created new opportunities for enhancing user experience in digital commerce. Leveraging state-of-the-art language models and retrieval systems, intelligent assistants can now understand complex queries, process vast amounts of product data, and deliver precise, context-aware responses. This project presents a scalable and robust AI-powered shopping assistant tailored for BigBasket's product ecosystem. Built using Retrieval-Augmented Generation (RAG), vector embeddings, and large language models (LLMs), the system enables efficient and intelligent product discovery through natural language interaction.
+
+---
+❗ Problem Statement
+
+Online shoppers frequently seek personalized and context-specific product recommendations, such as identifying the best-rated skincare item at the lowest price. However, conventional search systems often fall short in understanding such nuanced queries, lacking the ability to interpret intent, compare attributes across products, and deliver concise, relevant results. This creates friction in the user journey, leading to suboptimal shopping experiences. There is a clear need for an intelligent assistant that can process natural language queries, reason over structured product data, and deliver accurate, insightful responses to aid decision-making.
+
+---
+Business Goal
+
+To enhance the shopping experience, boost conversion rates, and optimize search efficiency by enabling natural language-based product search that understands user intent and delivers context-aware, personalized recommendations.
+
+---
+💰 Business Impact (Revenue + Cost)
+
+1. Increased Conversion Rates (↑ Revenue)
+   • Users find relevant products faster, leading to more product views, cart adds, and purchases
+   • Personalized recommendations match buyer intent better than traditional search
+   • Better UX = lower drop-off rates
+   Even a 1–2% uplift in conversions from improved product search can lead to significant revenue gains for a large marketplace like BigBasket.
+
+2. Reduced Customer Support Queries (↓ Cost)
+   • AI assistant can handle informational and product-related queries
+   • Reduces manual intervention, live chat support, and email volume
+   • More self-service = less operational overhead
+
+3. Reduced Time-to-Purchase (↑ Efficiency)
+   • Customers make faster decisions because the assistant summarizes comparisons (e.g., price vs. rating trade-offs)
+   • This shortens the purchase journey and increases user satisfaction
+
+4. Rapid Experimentation & Deployment (↓ Dev Costs)
+   • The project is modular, Dockerized, and CI/CD enabled → easier to iterate and deploy
+   • Can be extended to other verticals (electronics, fashion) or other marketplaces with minimal changes
+
+---
+🚀 Features
+
+- Natural Language Product Search: Users can ask queries like ""cheapest skin care with highest rating"" or ""best perfume under ₹500"".
+- Query Rewriting with LLM: Uses Groq LLMs (gemma2-9b-it) to refine user queries for more precise retrieval.
+- Document Embedding & Vector Search: Preprocessed BigBasket product data embedded with thenlper/gte-small and indexed using FAISS.
+- RAG Pipeline: Uses llama3-70b-8192 model for final answer generation based on retrieved and reranked results.
+- Reranking with CrossEncoder: Improves accuracy using cross-encoder/ms-marco-MiniLM-L-6-v2.
+- FastAPI Backend: Easily accessible via localhost:8000 or deployed server.
+- Dockerized: Build once, run anywhere. Fully containerized using Docker.
+- CI/CD with GitHub Actions: Automated testing, image build, and push to DockerHub.
+- Logging: Logging implemented for each step in the pipeline for transparency and debugging.
+
+---
+🗂️ Folder Structure
+
+BIGBASKET/
+├── .github/
+│   └── workflows/
+│       └── ci-cd.yml
+├── data/
+│   └── BigBasket Products.csv
+├── logs/
+│   ├── data_ingestion.log
+│   ├── data_preprocessing.log
+│   ├── query_rewriting.log
+│   └── retrieval_generation.log
+├── src/
+│   ├── utils/
+│   │   └── logger.py
+│   ├── __init__.py
+│   ├── data_ingestion.py
+│   ├── data_preprocessing.py
+│   ├── query_rewritting.py
+│   └── retrival_genaration.py
+├── static/
+│   └── css/
+│       └── style.css
+├── templates/
+│   └── index.html
+├── tests/
+├── ui/
+├── main.py
+├── Dockerfile
+├── requirements.txt
+├── .env
+├── .dockerignore
+├── .gitignore
+└── README.md
+
+---
+🧪 Local Development Setup
+
+# Clone the repository
+git clone https://github.com/ka1817/BigBasket-SmartCart-AI-Assistant-for-BigBasket-Shopping
+cd BigBasket
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Before running the app set .env (environment variable GROQ_API_KEY)
+uvicorn main:app --reload --port 8000
+
+---
+🐳 Docker Instructions
+
+1. Pull Image:
+   docker pull pranavreddy123/bigbasket-assistant:latest
+
+2. Run the App (Detached Mode):
+   docker run -d -p 8000:8000 \
+     -e GROQ_API_KEY=<your_groq_api_key> \
+     pranavreddy123/bigbasket-assistant:latest
+
+3. Access the App:
+   http://localhost:8000
+
+---
+🤖 Example Usage
+
+Query: ""Which is the cheapest hair product with high rating?""
+Rewritten: ""Find the most affordable hair care product with a high customer rating.""
+Response: ""Garlic Oil - Vegetarian Capsule 500 mg by Sri Sri Ayurveda is available at ₹220 with a 4.1 rating.""
+
+---
+🛠️ GitHub Actions (CI/CD)
+
+File: .github/workflows/ci-cd.yml
+- CI-Test: Runs unit tests using pytest.
+- CD-Docker: Builds Docker image and pushes to DockerHub.
+- Triggered on push to main or pull request.
+
+---
+☁️ Deployment on Amazon EC2
+
+1. Launch EC2 Instance (Ubuntu 20.04)
+2. SSH into your instance:
+   ssh -i ""your-key.pem"" ubuntu@your-ec2-ip
+3. Install Docker:
+   sudo apt update
+   sudo apt install docker.io -y
+   sudo systemctl start docker
+   sudo systemctl enable docker
+4. Pull and Run Docker Image:
+   docker pull pranavreddy123/bigbasket-assistant:latest
+   docker run -d --env-file .env -p 8000:8000 pranavreddy123/bigbasket-assistant:latest
+
+Access the app via: http://<your-ec2-public-ip>
+
+---
+🧠 Tech Stack
+
+- LLMs: Groq (gemma2-9b-it, llama3-70b-8192)
+- LangChain, FAISS, HuggingFace, CrossEncoder
+- FastAPI, Docker, GitHub Actions, AWS EC2, HTML/CSS
+
+---
+🔗 Links
+
+- GitHub Repo: BigBasket-SmartCart-AI-Assistant-for-BigBasket-Shopping
+- DockerHub: pranavreddy123/bigbasket-assistant"
+Explain Netflix Churn Prediction Project,"📊 Netflix Customer Churn Prediction
+🚀 Project Overview
+Netflix, like many subscription-based platforms, faces the challenge of customer churn. Retaining existing customers is significantly more cost-effective than acquiring new ones. This project delivers a full-scale machine learning solution to predict customer churn using behavioral and subscription data, from ingestion to deployment via a FastAPI interface.
+
+The system is production-grade with CI/CD, experiment tracking (MLflow), data versioning (DVC), and containerized deployment using Docker.
+
+🎯 Problem Statement
+Netflix seeks to proactively identify users likely to cancel their subscriptions. Predicting churn enables targeted interventions to retain users and minimize revenue loss.
+Goal: Build an ML classification model that predicts churn based on customer behavior and plan details.
+
+📌 Key Features Used
+- watch_hours (numerical): Total hours watched
+- last_login_days (numerical): Days since last login
+- number_of_profiles (numerical): Total profiles under the account
+- avg_watch_time_per_day (numerical): Daily average watch time
+- subscription_type (categorical): Basic, Standard, Premium
+- payment_method (categorical): Credit Card, UPI, PayPal, etc.
+- churned (target): 1 = Churned, 0 = Not churned
+
+📊 Key EDA Insights
+✅ Significant features included in final model: subscription_type, payment_method, number_of_profiles, watch_hours, last_login_days, avg_watch_time_per_day.
+❌ Non-significant: age, gender, region, device.
+
+🏗️ Project Architecture
+netflix-churn-prediction/
+├── data/                     # Raw and processed data
+├── models/                   # Trained model binaries
+├── reports/                  # Classification reports & plots
+├── static/                   # CSS
+├── templates/                # HTML UI
+├── src/                      # Data ingestion, preprocessing, training
+├── main.py                   # FastAPI backend
+├── Dockerfile                # Containerization
+├── .dvc/                     # Data version control
+├── .github/workflows/        # CI/CD GitHub Actions
+└── README.md
+
+⚙️ End-to-End ML Workflow
+1️⃣ Data Ingestion – pandas loaders, logging, validation  
+2️⃣ Preprocessing – OneHotEncoding + StandardScaler with ColumnTransformer  
+3️⃣ Model Training – RandomForest, GradientBoosting, SVC with GridSearchCV  
+4️⃣ MLflow Tracking – logs experiments, metrics, artifacts  
+
+🧪 Model Performance
+- Random Forest: Accuracy 0.99, ROC AUC 0.9995 ✅ Best  
+- Gradient Boosting: Accuracy 0.99, ROC AUC 0.9989  
+- SVC: Accuracy 0.93, ROC AUC 0.9844  
+
+🌐 FastAPI Deployment
+- `/` → HTML frontend  
+- `/api/predict` → JSON API  
+- Best model: Random Forest  
+
+🐳 Docker Setup
+docker build -t netflix-churn .
+docker run -p 8000:8000 netflix-churn
+
+🔁 CI/CD Pipeline (GitHub Actions)
+- Test: pytest, dvc pull  
+- Build: Docker image push to DockerHub  
+- Deploy: SSH to EC2, update container  
+
+🧬 Data Versioning
+- DVC with AWS S3 backend  
+- dvc push / pull for reproducibility  
+
+📌 Business Value
+- Detects high-risk churn users early  
+- Enables targeted retention campaigns  
+- Reduces customer acquisition cost  
+
+🙌 Author
+👨‍💻 Katta Sai Pranav Reddy  
+
+📎 Tech Stack
+Python, scikit-learn, MLflow, DVC, FastAPI, Docker, GitHub Actions, AWS EC2, S3
+"
+What certifications does Pranav Reddy have?,"📜 Certifications By Pranav Reddy
+
+All certifications are completed from Udemy:
+
+- Python for Data Science and Machine Learning  
+- The Complete SQL Bootcamp  
+- Generative AI with LangChain and HuggingFace  
+- End-To-End MLOps Bootcamp  
+"
+What internship experiences does Pranav Reddy have?,"💼 Internship Experience  
+
+🔹 iNeuron Intelligence Pvt. Ltd. – Machine Learning Intern (Remote, 10/2024 – 11/2024)  
+- Conducted extensive data preprocessing and exploratory data analysis (EDA) on large customer datasets to uncover key behavioral patterns and identify high-value customer segments.  
+- Designed, developed, and trained machine learning models for customer segmentation using the K-Means algorithm, achieving a strong Silhouette Score of 0.82 and enabling better marketing strategy alignment.  
+- Collaborated with cross-functional teams to interpret analytical insights, ensuring consistency and accuracy across different stages of the ML pipeline.  
+- Delivered actionable recommendations derived from statistical analysis and predictive modeling, supporting data-driven decision-making for targeted marketing campaigns.  
+
+🔹 Unified Mentor Pvt. Ltd. – Data Science Intern (Remote, 09/2024 – 10/2024)  
+- Built and optimized machine learning models to predict employee attrition, enabling organizations to take proactive retention measures and enhance workforce stability.  
+- Conducted comprehensive data preprocessing, feature engineering, and exploratory data analysis (EDA) to identify critical factors influencing employee turnover.  
+- Delivered actionable insights and visualized patterns through dashboards and analytical reports, helping HR teams make effective, data-driven decisions.  
+- Presented findings to stakeholders by translating complex analytics into clear, strategic recommendations for reducing attrition risk.  
+"
+What is your GitHub username?,My GitHub username is ka1817.
+What is your LinkedIn profile link?,My LinkedIn profile is linkedin.com/in/pranav-reddy-katta.
+What are Pranav Reddy's strengths?,"One of Pranav Reddy's key strengths is his ability to stay calm and composed under pressure. This allows him to analyze situations objectively, make thoughtful decisions, and deliver high-quality results even in challenging or time-sensitive scenarios. Staying level-headed also helps him collaborate effectively with teams and navigate complex problems without getting overwhelmed."
+Which college did you study in for Intermediate?,"I studied at Sri Chaitanya Junior College, Hyderabad."
+What percentage did you secure in Intermediate?,I secured 98% in my Intermediate.
+Which subjects did you take in Intermediate?,"I studied MPC - Mathematics, Physics, and Chemistry."
+Where did Pranav Reddy complete his Bachelor's degree and what was his CGPA?,Pranav Reddy completed his B.Tech degree at Anurag University with a CGPA of 8.29.
+What are Pranav Reddy's B.Tech details?,"Katta Sai Pranav Reddy, son of Katta Srinivas Reddy, pursued his Bachelor of Technology in Artificial Intelligence and Machine Learning at Anurag University, Venkatapur (V), Ghatkesar (M), Medchal-Malkajgiri (Dist.), Hyderabad, Telangana, India. He was admitted in the academic year 2021–2022 and successfully completed his final examinations in April 2025. He was awarded First Class with Distinction. His Hall Ticket No. is 21EG107A61, Serial No. AU 0012444, and Transcript No. 305474.  
+
+During his B.Tech program, he completed a total of 160 credits and achieved a Cumulative Grade Point Average (CGPA) of 8.29.  
+
+📘 Semester-wise SGPA:  
+- I Year I Semester: 8.54  
+- I Year II Semester: 6.43  
+- II Year I Semester: 8.22  
+- II Year II Semester: 7.17  
+- III Year I Semester: 7.22  
+- III Year II Semester: 8.39  
+- IV Year I Semester: 8.76  
+- IV Year II Semester: 10.00  
+
+📚 Detailed Course Performance:  
+
+🔹 I Year – I Semester  
+- Mathematics-I: A (4.00 Cr)  
+- Basic Electrical Engineering: A+ (3.00 Cr)  
+- Applied Physics: A (3.00 Cr)  
+- Programming for Problem Solving-I: B+ (3.00 Cr)  
+- Applied Physics Lab: A+ (1.50 Cr)  
+- Programming for Problem Solving-I Lab: A (1.50 Cr)  
+- Basic Electrical Engineering Lab: A+ (1.50 Cr)  
+- Engineering Graphics Lab: A+ (3.00 Cr)  
+- English Communication Skills Lab: A (1.00 Cr)  
+
+🔹 I Year – II Semester  
+- Mathematics-II: B (4.00 Cr)  
+- English: A (2.00 Cr)  
+- Engineering Chemistry: B (3.00 Cr)  
+- Programming for Problem Solving-II: B+ (3.00 Cr)  
+- Engineering Chemistry Lab: A (1.50 Cr)  
+- Programming for Problem Solving-II Lab: A+ (1.50 Cr)  
+- English Communication Skills Lab: A+ (1.50 Cr)  
+- Environmental Science: S (0.00 Cr)  
+- Gender Sensitization: S (0.00 Cr)  
+
+🔹 II Year – I Semester  
+- Computer Systems-I: A (3.00 Cr)  
+- Data Structures: A (3.00 Cr)  
+- Digital Logic Design: A (3.00 Cr)  
+- Probability & Statistics: A (3.00 Cr)  
+- Python Programming: A (3.00 Cr)  
+- Data Structures & Java Lab: A+ (1.50 Cr)  
+- Python Programming Lab: A+ (1.50 Cr)  
+- Constitution of India: S (0.00 Cr)  
+
+🔹 II Year – II Semester  
+- Data Wrangling and Visualization: A (3.00 Cr)  
+- Formal Languages and Automata Theory: A (3.00 Cr)  
+- Fundamentals of AI: A (3.00 Cr)  
+- Operating Systems: A (3.00 Cr)  
+- Software Engineering: A+ (3.00 Cr)  
+- Data Wrangling and Visualization Lab: A+ (1.50 Cr)  
+- Operating Systems Lab: A+ (1.50 Cr)  
+- Environmental Science: S (0.00 Cr)  
+- Gender Sensitization: S (0.00 Cr)  
+
+🔹 III Year – I Semester  
+- Essentials of Machine Learning: B+ (4.00 Cr)  
+- Computer Systems-II: A (3.00 Cr)  
+- Web Programming with MEAN: A (3.00 Cr)  
+- Entrepreneurship Development: A (2.00 Cr)  
+- Computer Systems Lab: A (1.50 Cr)  
+- Web Programming with MEAN Lab: A+ (1.50 Cr)  
+- Essentials of Machine Learning Lab: B (1.50 Cr)  
+- Quantitative Aptitude and Reasoning: A (0.00 Cr)  
+- MOOCs: S (0.00 Cr)  
+
+🔹 III Year – II Semester  
+- Automata Theory and Applications: B+ (4.00 Cr)  
+- Web Data Mining: A (3.00 Cr)  
+- Computer Vision and Image Processing: A (3.00 Cr)  
+- Internet of Things: A (3.00 Cr)  
+- Distributed Systems: A (3.00 Cr)  
+- Technical and Business Communication Skills: A+ (2.00 Cr)  
+- Verbal Ability and Critical Reasoning: A (0.00 Cr)  
+- Composition and Web Data Mining Lab: A (1.50 Cr)  
+- Internet of Things Lab: B+ (1.50 Cr)  
+
+🔹 IV Year – I Semester  
+- Natural Language Processing: A (3.00 Cr)  
+- Deep Learning: A+ (3.00 Cr)  
+- Big Data: A (3.00 Cr)  
+- Cloud Computing: A (3.00 Cr)  
+- Cyber Security: A (3.00 Cr)  
+- Negotiation Skills: A+ (2.00 Cr)  
+- Big Data Lab: A+ (1.50 Cr)  
+- Deep Learning Lab: A+ (1.50 Cr)  
+- Industry Oriented Mini Project: A (2.00 Cr)  
+
+🔹 IV Year – II Semester  
+- Seminar: O (2.00 Cr)  
+- Comprehensive Viva-Voce: O (2.00 Cr)  
+- Project Work: O (10.00 Cr)  
+
+📌 Certificate Issue Details:  
+- Date of Issue: 09-05-2025  
+- Controller of Examinations: [Signed]  
+- Dean Examinations: [Signed]  
+- Registrar: [Signed]  
+
+Summary: Pranav Reddy completed his B.Tech in Artificial Intelligence and Machine Learning with distinction, earning a CGPA of 8.29, with strong performance across all semesters and practical/project components, demonstrating excellence in both core technical subjects and advanced AI/ML domains."
+What is your graduation period?,I am studying from September 2021 to April 2025.
+Where did you work as a Machine Learning Intern?,I worked as a Machine Learning Intern at iNeuron Intelligence Pvt. Ltd.
+What were your responsibilities at iNeuron?,"I performed EDA, customer segmentation using clustering, and delivered insights for marketing campaigns."
+When did you intern at iNeuron?,From October 2024 to November 2024.
+Where did you work as a Data Science Intern?,I worked as a Data Science Intern at Unified Mentor Pvt. Ltd.
+What were your responsibilities at Unified Mentor?,"I developed attrition prediction models, performed EDA, and presented insights to stakeholders."
+When did you intern at Unified Mentor?,From September 2024 to October 2024.
+What is your BigBasket SmartCart project about?,It is an AI-driven shopping assistant built using RAG for natural language product search.
+What models were used in BigBasket SmartCart?,"I used Groq LLMs (gemma2-9b-it, llama3-70b-8192) with FAISS and CrossEncoder reranking."
+What was the retrieval accuracy of BigBasket SmartCart?,It achieved 95% retrieval accuracy.
+What was the average response latency?,The response latency was reduced to about 2 seconds.
+Which backend framework was used?,I used FastAPI as the backend framework.
+How was CI/CD implemented in the BigBasket project?,I used GitHub Actions for CI/CD pipelines.
+Where was the BigBasket app deployed?,It was deployed on AWS EC2 using Docker.
+What is your Netflix Churn Prediction project about?,It is an end-to-end ML system to predict customer churn for Netflix.
+Which models were trained in the Netflix Churn project?,"I trained RandomForest, GradientBoosting, and SVC models."
+Which model performed the best?,The Random Forest model performed best with 99% recall and 0.9995 ROC AUC.
+What tools were used for MLOps?,"I used DVC for data versioning, MLflow for tracking, and Docker for deployment."
+How was the project deployed?,It was deployed as a FastAPI-based REST API on AWS EC2.
+What business value did it provide?,It helped in identifying high-risk churn users and enabled targeted retention campaigns.
+What programming languages do you know?,"I am skilled in Python, SQL, HTML, and CSS."
+Which ML frameworks do you use?,"I use Scikit-learn, TensorFlow, and Keras."
+What tools do you use for MLOps?,"I use MLflow, DVC, Docker, GitHub Actions, and AWS EC2."
+Do you have experience in semantic search?,"Yes, I have experience in semantic search and Retrieval-Augmented Generation (RAG)."
+What visualization tools do you use?,"I use Pandas, NumPy, Matplotlib, and Seaborn."
+What deployment tools do you use?,"I use FastAPI, Docker, and AWS EC2."
+Have you done any certifications?,"Yes, I completed certifications on Python for Data Science, SQL Bootcamp, Generative AI with LangChain, and End-to-End MLOps Bootcamp."
+What are Pranav Reddy's hobbies?,"My hobbies include playing cricket, watching football, reading books, exploring AI, and browsing tech updates."
+What is your roll number in 10th?,My roll number was 1929100642.
+What was your total score in Intermediate?,I scored 982 out of 1000 in Intermediate.
