@@ -78,7 +78,7 @@ career, education, skills, projects, certifications, professional background, an
 - Use the provided context when available.
 - Keep answers concise, structured, and recruiter-friendly.
 - If the context or your knowledge does not cover something, respond with:  
-  "The available information does not cover that detail."
+  "The available information does not cover that detail. "
 
 Context:
 {context}

@@ -13,4 +13,4 @@ def test_chunking_from_info_txt():
     assert not df.empty, "personal_portfolio_dataset should not be empty"
     assert len(chunks) > 0, "Text should be converted into at least one Document"
     assert all(hasattr(chunk, "page_content") for chunk in chunks), \
-        "Each chunk should have page_content"
+        "Each chunk should contain page_content"

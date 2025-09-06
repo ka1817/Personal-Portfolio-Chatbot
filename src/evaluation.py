@@ -37,7 +37,7 @@ class Evaluation:
         self.qa = self.rg.build_rag_chain()
 
     def run(self, questions: list, ground_truth: list, use_reranker: bool = False):
-        """Run evaluation with or without reranking"""
+        """Run evaluation with or without reranking """
 
         if use_reranker:
             cross_encoder_model = HuggingFaceCrossEncoder(model_name="cross-encoder/ms-marco-MiniLM-L-6-v2")

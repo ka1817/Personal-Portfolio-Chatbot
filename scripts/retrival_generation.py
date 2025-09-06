@@ -16,7 +16,6 @@ def main():
 
     
     query = "share pranav reddy skills" 
-
     print(f"\n❓ Question: {query}")
     response = rag_chain.invoke(query)
     print(f"🤖 Answer: {response}")

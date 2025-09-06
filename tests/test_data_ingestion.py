@@ -1,8 +1,7 @@
 import os
 import pytest
 from src.data_ingestion import DataIngestion
-
-
+import pandas
 @pytest.fixture
 def test_load_custom_file(sample_text_file):
     """✅ Ensure custom file ingestion works correctly."""

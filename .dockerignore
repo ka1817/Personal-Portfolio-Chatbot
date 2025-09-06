@@ -33,11 +33,9 @@ Thumbs.db
 .venv
 *.env
 *.venv
-
 tests/
 pytest.ini
 README.md
 *.md
-
 Dockerfile
 .dockerignore

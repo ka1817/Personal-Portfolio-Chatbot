@@ -7,7 +7,7 @@ warnings.filterwarnings('ignore')
 def test_init_vectorstore_with_existing_index():
     vectorstore_path = "local_faiss_index"
     assert os.path.exists(vectorstore_path), (
-        f"Expected FAISS index at {vectorstore_path}, but not found. "
+        f"Expected FAISS index at {vectorstore_path}, but not found."
         "Run init_vectorstore(rebuild=True) once before tests."
     )
 

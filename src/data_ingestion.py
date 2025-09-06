@@ -22,7 +22,6 @@ class DataIngestion:
         else:
             self.path = os.path.abspath(path)
             logger.info(f"Using custom file path: {self.path}")
-
     def load_data(self):
         logger.debug(f"Checking if file exists at: {self.path}")
         if not os.path.exists(self.path):
