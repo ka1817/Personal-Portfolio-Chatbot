@@ -1,5 +1,5 @@
 body {
-  font-family: 'Merriweather', serif;
+  font-family: Arial, sans-serif;
   background: #f3f6fa;
   margin: 0;
   height: 100vh;
@@ -7,7 +7,6 @@ body {
   overflow: hidden;
 }
 
-/* Desktop */
 @media (min-width: 769px) {
   body {
     display: flex;
@@ -23,7 +22,6 @@ body {
   }
 }
 
-/* Mobile */
 @media (max-width: 700px) {
   body {
     display: block;
@@ -113,7 +111,6 @@ body {
   overflow: hidden;
 }
 
-/* Header */
 .chat-header {
   background: linear-gradient(135deg, #6366f1, #3b82f6);
   color: white;
@@ -128,7 +125,6 @@ body {
   font-size: 16px;
 }
 
-/* GitHub button */
 .github-btn {
   display: flex;
   align-items: center;
@@ -148,7 +144,6 @@ body {
   transform: scale(1.2);
 }
 
-/* Chat Body */
 .chat-body {
   flex: 1 1 auto;
   padding: 10px;
@@ -159,53 +154,18 @@ body {
   min-height: 0;
 }
 
-/* Bot message with HTML support */
 .bot-msg {
   background: #e5edff;
-  padding: 12px 14px;
+  padding: 8px 12px;
   border-radius: 10px;
-  margin: 6px 0;
-  max-width: 95%;
-  line-height: 1.5;
-  display: block;
+  margin: 4px 0;
+  max-width: 90%;
+  line-height: 1.4;
+  display: inline-block;
   word-wrap: break-word;
   overflow-wrap: anywhere;
-  font-size: 15px;
 }
 
-/* Resume-style formatting inside bot messages */
-.bot-msg h3 {
-  font-size: 17px;
-  font-weight: bold;
-  margin: 8px 0 6px;
-  color: #1e293b;
-}
-
-.bot-msg strong {
-  color: #111;
-  font-weight: 600;
-}
-
-.bot-msg ul {
-  margin: 6px 0;
-  padding-left: 20px;
-}
-
-.bot-msg li {
-  margin-bottom: 6px;
-  line-height: 1.5;
-}
-
-.bot-msg a {
-  color: #2563eb;
-  text-decoration: none;
-}
-
-.bot-msg a:hover {
-  text-decoration: underline;
-}
-
-/* User message */
 .user-msg {
   background: #d1fae5;
   padding: 8px 12px;
@@ -220,7 +180,6 @@ body {
   overflow-wrap: anywhere;
 }
 
-/* Thinking state */
 .thinking {
   font-style: italic;
   color: #666;
@@ -238,7 +197,6 @@ body {
   100% { opacity: 0.4; }
 }
 
-/* Footer */
 .chat-footer {
   display: flex;
   padding: 10px;
@@ -263,7 +221,6 @@ body {
   cursor: pointer;
 }
 
-/* Quick options */
 .quick-options {
   display: flex;
   flex-wrap: wrap;

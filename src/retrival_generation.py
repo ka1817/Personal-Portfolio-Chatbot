@@ -40,7 +40,7 @@ class RetrievalGeneration:
         logger.info("RetrievalGeneration initialized with path: %s", vectorstore_path)
 
     def init_vectorstore(self, rebuild: bool = False):
-        embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+        embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
         logger.info("Embeddings model loaded.")
 
         if os.path.exists(self.vectorstore_path) and not rebuild:
